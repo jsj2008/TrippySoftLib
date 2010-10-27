@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/329/trunk/src/com/luaye/console/view
+END
+PanelsManager.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/319/trunk/src/com/luaye/console/view/PanelsManager.as
+END
+GraphingPanel.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/329/trunk/src/com/luaye/console/view/GraphingPanel.as
+END
+RollerPanel.as
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/329/trunk/src/com/luaye/console/view/RollerPanel.as
+END
+Style.as
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/319/trunk/src/com/luaye/console/view/Style.as
+END
+AbstractPanel.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/329/trunk/src/com/luaye/console/view/AbstractPanel.as
+END
+MainPanel.as
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/329/trunk/src/com/luaye/console/view/MainPanel.as
+END
+FPSPanel.as
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/319/trunk/src/com/luaye/console/view/FPSPanel.as
+END
+MemoryPanel.as
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/329/trunk/src/com/luaye/console/view/MemoryPanel.as
+END
+Ruler.as
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/319/trunk/src/com/luaye/console/view/Ruler.as
+END
+ChannelsPanel.as
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/329/trunk/src/com/luaye/console/view/ChannelsPanel.as
+END

@@ -1,0 +1,43 @@
+For my game, I added this code to the Main class:
+
+		// for screenshot interface
+		public function getExportTotalWidth():Number {
+			return levelRect.width;
+		}
+		
+		public function getExportTotalHeight():Number {
+			return levelRect.height;
+		}
+		
+		public function getExportStageWidth():Number {
+			return 1024;
+		}
+		
+		public function getExportStageHeight():Number {
+			return 768;
+		}
+		
+		public var screenshotBackBuffer:BitmapData;
+		public function getScreenshot(screenshotRect:Rectangle):BitmapData {
+			if(!screenshotBackBuffer)
+				screenshotBackBuffer = new BitmapData(screenshotRect.width, screenshotRect.height, true, 0x0);
+			else
+				screenshotBackBuffer.fillRect(screenshotBackBuffer.rect, 0x0);
+			
+			terrainBitmap.render(screenshotBackBuffer, -screenshotRect.x, -screenshotRect.y, false);
+			
+			return screenshotBackBuffer;
+		}
+		
+		public var readyForScreenshotsCallback:Function;
+		public function setReadyForScreenshotsCallback(readyForScreenshotsCallback:Function):void {
+			this.readyForScreenshotsCallback = readyForScreenshotsCallback;
+		}
+
+and when my game is done loading, I have this code:
+
+			readyForScreenshotsCallback();
+
+Your game code will need to also hand over a bitmapData to the exporter utility. Edit deploy/settings.xml to fit your needs.
+
+The bitmapData that you return MUST have transparency enabled. You can optionally clear it to black, but you will generally always want to. The TileRipper utility (pending checkin) breaks on pngs that do not have an alpha channel.
