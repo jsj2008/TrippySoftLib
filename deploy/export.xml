@@ -1,6 +1,6 @@
 <frame>
 	<target>RopeBurn.swf</target>
 	<!-- change to support relative paths -->
-	<screenshotDirectory>file:///Users/pTymN/The Night School/RopeBurn/deploy/screenshots/</screenshotDirectory>
+	<screenshotDirectory>file:///Users/pTymN/The Night School/RopeBurn/deploy/screenshots2/</screenshotDirectory>
 	<screenshotPrefix>level1-foreground-</screenshotPrefix>
 </frame>
