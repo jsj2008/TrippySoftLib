@@ -1,4 +1,4 @@
 <frame>
 	<baseDir>screenshots/</baseDir>
-	<target>level1-foreground-tilemap.xml</target>
+	<target>level1-foreground-optimized-tilemap.xml</target>
 </frame>
