@@ -1,4 +1,4 @@
-<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#000033" width="1024" height="768" frameRate="60" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 489" majorVersion="11" buildNumber="489" viewAngle3D="88.2079048186946" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
+<DOMDocument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" backgroundColor="#000033" width="768" height="1024" frameRate="60" currentTimeline="1" xflVersion="2.0" creatorInfo="Adobe Flash Professional CS5" platform="Macintosh" versionInfo="Saved by Adobe Flash Macintosh 11.0 build 489" majorVersion="11" buildNumber="489" viewAngle3D="72.0268734800716" nextSceneIdentifier="2" playOptionsPlayLoop="false" playOptionsPlayPages="false" playOptionsPlayFrameActions="false">
      <timelines>
           <DOMTimeline name="Scene 1">
                <layers>
@@ -313,6 +313,38 @@
                </swatches>
           </swatchList>
      </extendedSwatchLists>
+     <persistentData>
+          <PD n="com.air.artemis.ipadest" v="ViewTilemap.ipa"/>
+          <PD n="com.air.artemis.ipaopt" v="test"/>
+          <PD n="com.air.artemis.included.count" v="0"/>
+          <PD n="com.air.artemis.swfdir" v="/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/deploy/"/>
+          <PD n="com.air.artemis.ipaprovfile" v="/Users/pTymN/Downloads/RopeBurn (2).mobileprovision"/>
+          <PD n="com.air.artemis.flapath" v="/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/ViewTilemap/ViewTilemap.xfl"/>
+          <PD n="com.air.artemis.pubipa" v="true"/>
+          <PD n="com.air.artemis.ipacertpath" v="/Users/pTymN/Downloads/Certificates.p12"/>
+          <PD n="com.air.artemis.basename" v="ViewTilemap"/>
+     </persistentData>
      <PrinterSettings platform="macintosh"/>
-     <publishHistory/>
+     <publishHistory>
+          <PublishItem publishSize="63335" publishTime="1288891799" publishDebug="true"/>
+          <PublishItem publishSize="63330" publishTime="1288891779" publishDebug="true"/>
+          <PublishItem publishSize="63326" publishTime="1288891677" publishDebug="true"/>
+          <PublishItem publishSize="63279" publishTime="1288891535" publishDebug="true"/>
+          <PublishItem publishSize="63322" publishTime="1288891505" publishDebug="true"/>
+          <PublishItem publishSize="63317" publishTime="1288891478" publishDebug="true"/>
+          <PublishItem publishSize="63336" publishTime="1288891441" publishDebug="true"/>
+          <PublishItem publishSize="63350" publishTime="1288891420" publishDebug="true"/>
+          <PublishItem publishSize="63300" publishTime="1288891326" publishDebug="true"/>
+          <PublishItem publishSize="63275" publishTime="1288891242" publishDebug="true"/>
+          <PublishItem publishSize="63301" publishTime="1288891193" publishDebug="true"/>
+          <PublishItem publishSize="63199" publishTime="1288889348" publishDebug="true"/>
+          <PublishItem publishSize="63189" publishTime="1288889265" publishDebug="true"/>
+          <PublishItem publishSize="63261" publishTime="1288887605" publishDebug="true"/>
+          <PublishItem publishSize="63305" publishTime="1288887488" publishDebug="true"/>
+          <PublishItem publishSize="63613" publishTime="1288885364" publishDebug="true"/>
+          <PublishItem publishSize="63622" publishTime="1288885303" publishDebug="true"/>
+          <PublishItem publishSize="63699" publishTime="1288884390" publishDebug="true"/>
+          <PublishItem publishSize="63635" publishTime="1288884303" publishDebug="true"/>
+          <PublishItem publishSize="63658" publishTime="1288884280" publishDebug="true"/>
+     </publishHistory>
 </DOMDocument>
