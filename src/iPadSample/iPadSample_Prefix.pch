@@ -1,0 +1,18 @@
+//
+// Prefix header for all source files of the 'iPadSample' target in the 'iPadSample' project
+//
+
+#import <Availability.h>
+
+#define TIXML_USE_STL
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <OpenGLES/ES2/gl.h>
+#import <OpenGLES/ES2/glext.h>
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#endif
