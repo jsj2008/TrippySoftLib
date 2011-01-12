@@ -15,6 +15,7 @@ using namespace std;
 #include "Game.h"
 
 int TSGameObject::totalBodies = 0;
+int TSGameObject::totalFixtures = 0;
 
 TSGameObject::TSGameObject(tr1::unordered_map<string, string> &attributes) {
 	this->friction = 1.0f;
@@ -99,6 +100,8 @@ void TSGameObject::complete() {
 }
 
 void TSGameObject::createFixture(b2Shape* shape) {
+	totalFixtures++;
+	
 	b2Fixture* fixture = body->CreateFixture(shape, body->GetType() == b2_staticBody ? 0.0f : 1.0f);
 	fixture->SetFriction(friction);
 	fixture->SetRestitution(restitution);

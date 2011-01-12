@@ -24,6 +24,7 @@ public:
 	TSSprite* animation;
 	std::string id;
 	static int totalBodies;
+	static int totalFixtures;
 	std::vector<b2Shape*> shapes;
 
 	void addPolygon(std::vector<b2Vec2> points, bool addAsPolygon = true);

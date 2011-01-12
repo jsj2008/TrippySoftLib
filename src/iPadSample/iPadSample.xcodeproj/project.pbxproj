@@ -21,8 +21,6 @@
 		DB1CE90A12D92D570029335E /* TSCache.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB1CE90912D92D570029335E /* TSCache.mm */; };
 		DB307E3212B47D6D00C44BE0 /* level1-foreground-optimized-0.png in Resources */ = {isa = PBXBuildFile; fileRef = DB307E2412B47D6D00C44BE0 /* level1-foreground-optimized-0.png */; };
 		DB307E3312B47D6D00C44BE0 /* level1-foreground-optimized-1.png in Resources */ = {isa = PBXBuildFile; fileRef = DB307E2512B47D6D00C44BE0 /* level1-foreground-optimized-1.png */; };
-		DB307E3412B47D6D00C44BE0 /* level1-foreground-optimized-2.png in Resources */ = {isa = PBXBuildFile; fileRef = DB307E2612B47D6D00C44BE0 /* level1-foreground-optimized-2.png */; };
-		DB307E3512B47D6D00C44BE0 /* level1-foreground-optimized-3.png in Resources */ = {isa = PBXBuildFile; fileRef = DB307E2712B47D6D00C44BE0 /* level1-foreground-optimized-3.png */; };
 		DB307E3F12B47D6D00C44BE0 /* level1-foreground-optimized-tilemap.xml in Resources */ = {isa = PBXBuildFile; fileRef = DB307E3112B47D6D00C44BE0 /* level1-foreground-optimized-tilemap.xml */; };
 		DB3E253312DD2C7700D15D82 /* Box2DConfig.cmake in Resources */ = {isa = PBXBuildFile; fileRef = DB3E24D712DD2C7700D15D82 /* Box2DConfig.cmake */; };
 		DB3E253412DD2C7700D15D82 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = DB3E24D812DD2C7700D15D82 /* CMakeLists.txt */; };
@@ -72,14 +70,16 @@
 		DB3E256812DD2CCF00D15D82 /* PolyDecompBayazit.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB3E256412DD2CCF00D15D82 /* PolyDecompBayazit.mm */; };
 		DB3E256912DD2CCF00D15D82 /* TSSprite.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB3E256612DD2CCF00D15D82 /* TSSprite.mm */; };
 		DB3E256C12DD2D2900D15D82 /* iPadSample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB3E256B12DD2D2900D15D82 /* iPadSample-Info.plist */; };
+		DB56948E12DD480E00E8D630 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB56948812DD480E00E8D630 /* tinyxmlparser.cpp */; };
+		DB56948F12DD480E00E8D630 /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB56948912DD480E00E8D630 /* tinyxmlerror.cpp */; };
+		DB56949012DD480E00E8D630 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB56948A12DD480E00E8D630 /* tinyxml.cpp */; };
+		DB56949112DD480E00E8D630 /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB56948B12DD480E00E8D630 /* tinystr.cpp */; };
+		DB5694D012DD49DE00E8D630 /* level1-foreground-optimized-2.png in Resources */ = {isa = PBXBuildFile; fileRef = DB5694CE12DD49DE00E8D630 /* level1-foreground-optimized-2.png */; };
+		DB5694D112DD49DE00E8D630 /* level1-foreground-optimized-3.png in Resources */ = {isa = PBXBuildFile; fileRef = DB5694CF12DD49DE00E8D630 /* level1-foreground-optimized-3.png */; };
 		DB5B0D8B12A6A1EE001A95B3 /* TSRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB5B0D8A12A6A1EE001A95B3 /* TSRenderer.mm */; };
 		DB9442F312BBAD2E00BE546C /* GLES-Render.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB9442F212BBAD2E00BE546C /* GLES-Render.mm */; };
 		DB9C9F0212B8712300A4617F /* Game.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB9C9F0112B8712300A4617F /* Game.mm */; };
 		DB9C9F0A12B874F900A4617F /* TSRect.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB9C9F0912B874F900A4617F /* TSRect.mm */; };
-		DB9C9F6F12B87C6E00A4617F /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB9C9F6B12B87C6E00A4617F /* tinystr.cpp */; };
-		DB9C9F7012B87C6E00A4617F /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB9C9F6C12B87C6E00A4617F /* tinyxml.cpp */; };
-		DB9C9F7112B87C6E00A4617F /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB9C9F6D12B87C6E00A4617F /* tinyxmlerror.cpp */; };
-		DB9C9F7212B87C6E00A4617F /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB9C9F6E12B87C6E00A4617F /* tinyxmlparser.cpp */; };
 		DB9C9F8F12B87D6C00A4617F /* tilemap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB9C9F8D12B87D6C00A4617F /* tilemap.cpp */; };
 		DB9CA15112B983C900A4617F /* texture2d.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9CA14F12B983C900A4617F /* texture2d.m */; };
 		DBB56D8712C2911E004DF714 /* TSBox2D.mm in Sources */ = {isa = PBXBuildFile; fileRef = DBB56D8612C2911E004DF714 /* TSBox2D.mm */; };
@@ -122,8 +122,6 @@
 		DB1CE90912D92D570029335E /* TSCache.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TSCache.mm; sourceTree = "<group>"; };
 		DB307E2412B47D6D00C44BE0 /* level1-foreground-optimized-0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "level1-foreground-optimized-0.png"; path = "../../deploy/screenshots/level1-foreground-optimized-0.png"; sourceTree = SOURCE_ROOT; };
 		DB307E2512B47D6D00C44BE0 /* level1-foreground-optimized-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "level1-foreground-optimized-1.png"; path = "../../deploy/screenshots/level1-foreground-optimized-1.png"; sourceTree = SOURCE_ROOT; };
-		DB307E2612B47D6D00C44BE0 /* level1-foreground-optimized-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "level1-foreground-optimized-2.png"; path = "../../deploy/screenshots/level1-foreground-optimized-2.png"; sourceTree = SOURCE_ROOT; };
-		DB307E2712B47D6D00C44BE0 /* level1-foreground-optimized-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "level1-foreground-optimized-3.png"; path = "../../deploy/screenshots/level1-foreground-optimized-3.png"; sourceTree = SOURCE_ROOT; };
 		DB307E3112B47D6D00C44BE0 /* level1-foreground-optimized-tilemap.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = "level1-foreground-optimized-tilemap.xml"; path = "../../deploy/screenshots/level1-foreground-optimized-tilemap.xml"; sourceTree = SOURCE_ROOT; };
 		DB3E24D612DD2C7700D15D82 /* Box2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Box2D.h; sourceTree = "<group>"; };
 		DB3E24D712DD2C7700D15D82 /* Box2DConfig.cmake */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Box2DConfig.cmake; sourceTree = "<group>"; };
@@ -219,6 +217,14 @@
 		DB3E256612DD2CCF00D15D82 /* TSSprite.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TSSprite.mm; sourceTree = "<group>"; };
 		DB3E256A12DD2CF000D15D82 /* iPadSample_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPadSample_Prefix.pch; sourceTree = SOURCE_ROOT; };
 		DB3E256B12DD2D2900D15D82 /* iPadSample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "iPadSample-Info.plist"; sourceTree = "<group>"; };
+		DB56948812DD480E00E8D630 /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxmlparser.cpp; path = ../tinyxml/tinyxmlparser.cpp; sourceTree = SOURCE_ROOT; };
+		DB56948912DD480E00E8D630 /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxmlerror.cpp; path = ../tinyxml/tinyxmlerror.cpp; sourceTree = SOURCE_ROOT; };
+		DB56948A12DD480E00E8D630 /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxml.cpp; path = ../tinyxml/tinyxml.cpp; sourceTree = SOURCE_ROOT; };
+		DB56948B12DD480E00E8D630 /* tinystr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinystr.cpp; path = ../tinyxml/tinystr.cpp; sourceTree = SOURCE_ROOT; };
+		DB56948C12DD480E00E8D630 /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinyxml.h; path = ../tinyxml/tinyxml.h; sourceTree = SOURCE_ROOT; };
+		DB56948D12DD480E00E8D630 /* tinystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinystr.h; path = ../tinyxml/tinystr.h; sourceTree = SOURCE_ROOT; };
+		DB5694CE12DD49DE00E8D630 /* level1-foreground-optimized-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "level1-foreground-optimized-2.png"; path = "../../deploy/screenshots/level1-foreground-optimized-2.png"; sourceTree = SOURCE_ROOT; };
+		DB5694CF12DD49DE00E8D630 /* level1-foreground-optimized-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "level1-foreground-optimized-3.png"; path = "../../deploy/screenshots/level1-foreground-optimized-3.png"; sourceTree = SOURCE_ROOT; };
 		DB5B0D8912A6A1EE001A95B3 /* TSRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSRenderer.h; sourceTree = "<group>"; };
 		DB5B0D8A12A6A1EE001A95B3 /* TSRenderer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TSRenderer.mm; sourceTree = "<group>"; };
 		DB9442F112BBAD2E00BE546C /* GLES-Render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GLES-Render.h"; sourceTree = "<group>"; };
@@ -227,12 +233,6 @@
 		DB9C9F0112B8712300A4617F /* Game.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Game.mm; sourceTree = "<group>"; };
 		DB9C9F0812B874F900A4617F /* TSRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSRect.h; sourceTree = "<group>"; };
 		DB9C9F0912B874F900A4617F /* TSRect.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TSRect.mm; sourceTree = "<group>"; };
-		DB9C9F6912B87C6E00A4617F /* tinystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinystr.h; path = "../../../AS3-Tile-Ripper-Utility/src/tinyxml/tinystr.h"; sourceTree = SOURCE_ROOT; };
-		DB9C9F6A12B87C6E00A4617F /* tinyxml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinyxml.h; path = "../../../AS3-Tile-Ripper-Utility/src/tinyxml/tinyxml.h"; sourceTree = SOURCE_ROOT; };
-		DB9C9F6B12B87C6E00A4617F /* tinystr.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinystr.cpp; path = "../../../AS3-Tile-Ripper-Utility/src/tinyxml/tinystr.cpp"; sourceTree = SOURCE_ROOT; };
-		DB9C9F6C12B87C6E00A4617F /* tinyxml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxml.cpp; path = "../../../AS3-Tile-Ripper-Utility/src/tinyxml/tinyxml.cpp"; sourceTree = SOURCE_ROOT; };
-		DB9C9F6D12B87C6E00A4617F /* tinyxmlerror.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxmlerror.cpp; path = "../../../AS3-Tile-Ripper-Utility/src/tinyxml/tinyxmlerror.cpp"; sourceTree = SOURCE_ROOT; };
-		DB9C9F6E12B87C6E00A4617F /* tinyxmlparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tinyxmlparser.cpp; path = "../../../AS3-Tile-Ripper-Utility/src/tinyxml/tinyxmlparser.cpp"; sourceTree = SOURCE_ROOT; };
 		DB9C9F8D12B87D6C00A4617F /* tilemap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tilemap.cpp; sourceTree = "<group>"; };
 		DB9C9F8E12B87D6C00A4617F /* tilemap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tilemap.h; sourceTree = "<group>"; };
 		DB9CA14E12B983C900A4617F /* texture2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = texture2d.h; sourceTree = "<group>"; };
@@ -380,12 +380,12 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DB5694CE12DD49DE00E8D630 /* level1-foreground-optimized-2.png */,
+				DB5694CF12DD49DE00E8D630 /* level1-foreground-optimized-3.png */,
 				DB3E256B12DD2D2900D15D82 /* iPadSample-Info.plist */,
 				DBD306FA12D6B56A00AD498B /* level1-physics.svg */,
 				DB307E2412B47D6D00C44BE0 /* level1-foreground-optimized-0.png */,
 				DB307E2512B47D6D00C44BE0 /* level1-foreground-optimized-1.png */,
-				DB307E2612B47D6D00C44BE0 /* level1-foreground-optimized-2.png */,
-				DB307E2712B47D6D00C44BE0 /* level1-foreground-optimized-3.png */,
 				DB307E3112B47D6D00C44BE0 /* level1-foreground-optimized-tilemap.xml */,
 			);
 			name = Resources;
@@ -549,12 +549,12 @@
 		DB9C9F7312B87C7400A4617F /* tinyxml */ = {
 			isa = PBXGroup;
 			children = (
-				DB9C9F6912B87C6E00A4617F /* tinystr.h */,
-				DB9C9F6A12B87C6E00A4617F /* tinyxml.h */,
-				DB9C9F6B12B87C6E00A4617F /* tinystr.cpp */,
-				DB9C9F6C12B87C6E00A4617F /* tinyxml.cpp */,
-				DB9C9F6D12B87C6E00A4617F /* tinyxmlerror.cpp */,
-				DB9C9F6E12B87C6E00A4617F /* tinyxmlparser.cpp */,
+				DB56948812DD480E00E8D630 /* tinyxmlparser.cpp */,
+				DB56948912DD480E00E8D630 /* tinyxmlerror.cpp */,
+				DB56948A12DD480E00E8D630 /* tinyxml.cpp */,
+				DB56948B12DD480E00E8D630 /* tinystr.cpp */,
+				DB56948C12DD480E00E8D630 /* tinyxml.h */,
+				DB56948D12DD480E00E8D630 /* tinystr.h */,
 			);
 			name = tinyxml;
 			sourceTree = "<group>";
@@ -614,13 +614,13 @@
 				2514C27C10084DCA00A42282 /* Shader.vsh in Resources */,
 				DB307E3212B47D6D00C44BE0 /* level1-foreground-optimized-0.png in Resources */,
 				DB307E3312B47D6D00C44BE0 /* level1-foreground-optimized-1.png in Resources */,
-				DB307E3412B47D6D00C44BE0 /* level1-foreground-optimized-2.png in Resources */,
-				DB307E3512B47D6D00C44BE0 /* level1-foreground-optimized-3.png in Resources */,
 				DB307E3F12B47D6D00C44BE0 /* level1-foreground-optimized-tilemap.xml in Resources */,
 				DBD306FB12D6B56A00AD498B /* level1-physics.svg in Resources */,
 				DB3E253312DD2C7700D15D82 /* Box2DConfig.cmake in Resources */,
 				DB3E253412DD2C7700D15D82 /* CMakeLists.txt in Resources */,
 				DB3E256C12DD2D2900D15D82 /* iPadSample-Info.plist in Resources */,
+				DB5694D012DD49DE00E8D630 /* level1-foreground-optimized-2.png in Resources */,
+				DB5694D112DD49DE00E8D630 /* level1-foreground-optimized-3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -643,10 +643,6 @@
 				DBE0C01912B6B2DC00D7B837 /* TSPositionColorTex1Shader.mm in Sources */,
 				DB9C9F0212B8712300A4617F /* Game.mm in Sources */,
 				DB9C9F0A12B874F900A4617F /* TSRect.mm in Sources */,
-				DB9C9F6F12B87C6E00A4617F /* tinystr.cpp in Sources */,
-				DB9C9F7012B87C6E00A4617F /* tinyxml.cpp in Sources */,
-				DB9C9F7112B87C6E00A4617F /* tinyxmlerror.cpp in Sources */,
-				DB9C9F7212B87C6E00A4617F /* tinyxmlparser.cpp in Sources */,
 				DB9C9F8F12B87D6C00A4617F /* tilemap.cpp in Sources */,
 				DB9CA15112B983C900A4617F /* texture2d.m in Sources */,
 				DB9442F312BBAD2E00BE546C /* GLES-Render.mm in Sources */,
@@ -704,6 +700,10 @@
 				DB3E256712DD2CCF00D15D82 /* main.m in Sources */,
 				DB3E256812DD2CCF00D15D82 /* PolyDecompBayazit.mm in Sources */,
 				DB3E256912DD2CCF00D15D82 /* TSSprite.mm in Sources */,
+				DB56948E12DD480E00E8D630 /* tinyxmlparser.cpp in Sources */,
+				DB56948F12DD480E00E8D630 /* tinyxmlerror.cpp in Sources */,
+				DB56949012DD480E00E8D630 /* tinyxml.cpp in Sources */,
+				DB56949112DD480E00E8D630 /* tinystr.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

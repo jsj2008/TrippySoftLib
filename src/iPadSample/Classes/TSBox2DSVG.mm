@@ -249,11 +249,8 @@ void TSBox2DSVG::complete() {
 	b2DynamicTree *tree = (b2DynamicTree *)&box2D->world->GetContactManager().m_broadPhase.m_tree;
 	tree->Rebalance(10000);
 	
-//	b2DynamicTree* tree = (box2D.world.m_contactManager.m_broadPhase as b2DynamicTreeBroadPhase).m_tree;
-//	tree.Rebalance(10000);
-//	TS.log("full height is " + tree.ComputeFullHeight() + " with 10,000 iterations");
-//	
-//	TS.log("created " + TSGameObject.totalBodies + " bodies");
+	NSLog(@"full height is %i with 10,000 iterations", tree->ComputeHeight());
+	NSLog(@"created %i bodies with %i fixtures", TSGameObject::totalBodies, TSGameObject::totalFixtures);
 	
 	gameObjects.clear();
 }
