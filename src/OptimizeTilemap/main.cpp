@@ -230,8 +230,8 @@ int main(int argc, char **argv) {
 	for(int y = 0; y < inputTilemap.tilemap.size(); y++) {
 		for(int x = 0; x < inputTilemap.tilemap[0].size(); x++) {
 			int atlasAsTileIndex = inputTilemap.tilemap[y][x];
-			
-			TileMap spliceMeIn = outputTilemaps[atlasAsTileIndex];
+			assert(atlasAsTileIndex < outputTilemaps.size());
+			TileMap& spliceMeIn = outputTilemaps[atlasAsTileIndex];
 			
 			for(int y2 = 0; y2 < spliceMeIn.tilemap.size(); y2++) {
 				

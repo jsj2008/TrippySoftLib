@@ -42,16 +42,20 @@ vector<int> parseRow(string rowText) {
 		if(tupleParts.size() > 1) tuple = tupleParts[0];
 		
 		tupleParts = split(tuple, ",");
-		string tileIndexStr = tupleParts[0];
-		string tileRun = tupleParts[1];
+		int tileIndex = atoi(tupleParts[0].c_str());
+		int tileRun = atoi(tupleParts[1].c_str());
 		
-		if(tileRun != "1") {
-			printf("didnt expect to find optimized tilemap\n");
-			return row;
+		while(tileRun != 0) {
+			row.push_back(tileIndex);
+			
+			if(tileRun > 0) {
+				tileIndex++;
+				tileRun--;
+			}
+			else {
+				tileRun++;
+			}
 		}
-		
-		int tileIndex = atoi(tileIndexStr.c_str()); 
-		row.push_back(tileIndex);
 	}
 	
 	return row;

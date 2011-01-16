@@ -11170,7 +11170,7 @@ torqueratio=3000</desc>
        sodipodi:open="true">
       <desc
          id="desc5205">type=player
-graphics=player.swf
+graphics=player.png
 mass=6.3
 rotationalmass=6.3</desc>
     </path>

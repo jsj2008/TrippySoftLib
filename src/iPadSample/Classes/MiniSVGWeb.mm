@@ -1,6 +1,6 @@
 /*
  *  MiniSVGWeb.mm
- *  iPadSample
+ *  RopeBurnXCode
  *
  *  Created by Timothy Kerchmar on 1/3/11.
  *  Copyright 2011 The Night School, LLC. All rights reserved.
@@ -13,7 +13,7 @@ using namespace std;
 #include "stdaddtions.h"
 
 SvgArc::SvgArc(float x, float y, float startAngle, float arc, float radius, float yRadius, float xAxisRotation, float cx, float cy) :
-	x(x), y(y), startAngle(startAngle), arc(arc), radius(radius), yRadius(yRadius), xAxisRotation(xAxisRotation), cx(cx), cy(cy)
+x(x), y(y), startAngle(startAngle), arc(arc), radius(radius), yRadius(yRadius), xAxisRotation(xAxisRotation), cx(cx), cy(cy)
 {
 }
 
@@ -53,7 +53,7 @@ TSMatrix* MiniSVGWeb::parseTransform(char* tran, TSMatrix* baseMatrix) {
 			// check flash version, not removing leading trailing commas
 			
 			vector<string> argsArray = split(args, ",");
-					
+			
 			TSMatrix nodeMatrix;
 			
 			if(command == "matrix" && argsArray.size() == 6) {
@@ -101,7 +101,7 @@ TSMatrix* MiniSVGWeb::parseTransform(char* tran, TSMatrix* baseMatrix) {
 			baseMatrix->concat(&nodeMatrix);
 		}
 	}
-
+	
 	return baseMatrix;
 }
 
@@ -172,7 +172,7 @@ vector<string> MiniSVGWeb::normalizeSVGData(TiXmlElement* path) {
 	string data = path->Attribute("d");
 	// AS3 version trims whitespace from either end of data,
 	// but isnt necessary for current svgs
-            
+	
 	// In the algorithm below, we are doing a few things. It is
 	// unfortunately complicated but it was found to be the primary
 	// bottleneck when dealing with lots of PATH statements. 
@@ -193,9 +193,9 @@ vector<string> MiniSVGWeb::normalizeSVGData(TiXmlElement* path) {
 	
 	while (i < dataLength) {
 		code = data[i];
-				
+		
 		// from most common to least common encountered
-
+		
 		if ((code >= 48 && code <= 57) || code == 45 || code == 101 || code == 46) {
 			// 0 through 9, -, e-, or .
 			do {
@@ -358,7 +358,7 @@ void MiniSVGWeb::generateGraphicsCommands(TiXmlElement* path) {
 			}
 		}
 		else {
-//			TS.log("Unknown Segment Type: " + command + " in path " + path->Attribute("id"));
+			//			TS.log("Unknown Segment Type: " + command + " in path " + path->Attribute("id"));
 		}
 	}        
 	
@@ -443,16 +443,16 @@ float MiniSVGWeb::ellipticalArc(float rx, float ry, float xAxisRotation, float l
 	}
 	
 	SvgArc arc = computeSvgArc(rx, ry, xAxisRotation, 
-							bool(largeArcFlag), bool(sweepFlag),
-							x, y, currentX, currentY);
+							   bool(largeArcFlag), bool(sweepFlag),
+							   x, y, currentX, currentY);
 	
 	if(round(arc.arc) == 360.0 && round(arc.radius - arc.yRadius) == 0.0) {
 		
 		vector<string> tempPath;
 		tempPath.push_back("CIRCLE");
-		tempPath.push_back(toString(arc.cx).c_str());
-		tempPath.push_back(toString(arc.cy).c_str());
-		tempPath.push_back(toString(arc.radius).c_str());
+		tempPath.push_back(toString(arc.cx));
+		tempPath.push_back(toString(arc.cy));
+		tempPath.push_back(toString(arc.radius));
 		graphicsCommands.push_back(tempPath);
 	}
 	
@@ -489,10 +489,10 @@ void MiniSVGWeb::quadraticBezier(float x1, float y1, float x, float y, bool isAb
 	
 	vector<string> tempArray;
 	tempArray.push_back("C");
-	tempArray.push_back(toString(x1).c_str());
-	tempArray.push_back(toString(y1).c_str());
-	tempArray.push_back(toString(x).c_str());
-	tempArray.push_back(toString(y).c_str());
+	tempArray.push_back(toString(x1));
+	tempArray.push_back(toString(y1));
+	tempArray.push_back(toString(x));
+	tempArray.push_back(toString(y));
 	graphicsCommands.push_back(tempArray);
 	
 	currentX = x;
@@ -520,7 +520,7 @@ void MiniSVGWeb::cubicBezierSmooth(float x2, float y2, float x, float y, bool is
 }
 
 void MiniSVGWeb::cubicBezier(float x1, float y1, float x2, float y2,
-								   float x, float y, bool isAbs) {
+							 float x, float y, bool isAbs) {
 	
 	if (!isAbs) {
 		x1 += currentX;
@@ -538,28 +538,28 @@ void MiniSVGWeb::cubicBezier(float x1, float y1, float x2, float y2,
 	
 	/* A portion of code from Bezier_lib.as by Timothee Groleau */
 	// calculates the useful base points
-	b2Vec2 PA = getPointOnSegment(P0, P1, 3/4);
-	b2Vec2 PB = getPointOnSegment(P3, P2, 3/4);
+	b2Vec2 PA = getPointOnSegment(P0, P1, 0.75f);
+	b2Vec2 PB = getPointOnSegment(P3, P2, 0.75f);
 	
 	// get 1/16 of the [P3, P0] segment
-	float dx = (P3.x - P0.x) / 16;
-	float dy = (P3.y - P0.y) / 16;
+	float dx = (P3.x - P0.x) / 16.0f;
+	float dy = (P3.y - P0.y) / 16.0f;
 	
 	// calculates control point 1
-	b2Vec2 Pc_1 = getPointOnSegment(P0, P1, 3/8);
+	b2Vec2 Pc_1 = getPointOnSegment(P0, P1, 0.375f);
 	
 	// calculates control point 2
-	b2Vec2 Pc_2 = getPointOnSegment(PA, PB, 3/8);
+	b2Vec2 Pc_2 = getPointOnSegment(PA, PB, 0.357f);
 	Pc_2.x -= dx;
 	Pc_2.y -= dy;
 	
 	// calculates control point 3
-	b2Vec2 Pc_3 = getPointOnSegment(PB, PA, 3/8);
+	b2Vec2 Pc_3 = getPointOnSegment(PB, PA, 0.357f);
 	Pc_3.x += dx;
 	Pc_3.y += dy;
 	
 	// calculates control point 4
-	b2Vec2 Pc_4 = getPointOnSegment(P3, P2, 3/8);
+	b2Vec2 Pc_4 = getPointOnSegment(P3, P2, 0.375f);
 	
 	// calculates the 3 anchor points
 	b2Vec2 Pa_1 = getMiddle(Pc_1, Pc_2);
@@ -569,40 +569,40 @@ void MiniSVGWeb::cubicBezier(float x1, float y1, float x2, float y2,
 	// draw the four quadratic subsegments
 	vector<string> tempArray;
 	tempArray.push_back("C");
-	tempArray.push_back(toString(Pc_1.x).c_str());
-	tempArray.push_back(toString(Pc_1.y).c_str());
-	tempArray.push_back(toString(Pa_1.x).c_str());
-	tempArray.push_back(toString(Pa_1.y).c_str());
+	tempArray.push_back(toString(Pc_1.x));
+	tempArray.push_back(toString(Pc_1.y));
+	tempArray.push_back(toString(Pa_1.x));
+	tempArray.push_back(toString(Pa_1.y));
 	graphicsCommands.push_back(tempArray);
 	
 	tempArray.clear();
 	tempArray.push_back("C");
-	tempArray.push_back(toString(Pc_2.x).c_str());
-	tempArray.push_back(toString(Pc_2.y).c_str());
-	tempArray.push_back(toString(Pa_2.x).c_str());
-	tempArray.push_back(toString(Pa_2.y).c_str());
+	tempArray.push_back(toString(Pc_2.x));
+	tempArray.push_back(toString(Pc_2.y));
+	tempArray.push_back(toString(Pa_2.x));
+	tempArray.push_back(toString(Pa_2.y));
 	graphicsCommands.push_back(tempArray);
 	
 	tempArray.clear();
 	tempArray.push_back("C");
-	tempArray.push_back(toString(Pc_3.x).c_str());
-	tempArray.push_back(toString(Pc_3.y).c_str());
-	tempArray.push_back(toString(Pa_3.x).c_str());
-	tempArray.push_back(toString(Pa_3.y).c_str());
+	tempArray.push_back(toString(Pc_3.x));
+	tempArray.push_back(toString(Pc_3.y));
+	tempArray.push_back(toString(Pa_3.x));
+	tempArray.push_back(toString(Pa_3.y));
 	graphicsCommands.push_back(tempArray);
 	
 	tempArray.clear();
 	tempArray.push_back("C");
-	tempArray.push_back(toString(Pc_4.x).c_str());
-	tempArray.push_back(toString(Pc_4.y).c_str());
-	tempArray.push_back(toString(P3.x).c_str());
-	tempArray.push_back(toString(P3.y).c_str());
+	tempArray.push_back(toString(Pc_4.x));
+	tempArray.push_back(toString(Pc_4.y));
+	tempArray.push_back(toString(P3.x));
+	tempArray.push_back(toString(P3.y));
 	graphicsCommands.push_back(tempArray);
 	
-//	graphicsCommands.push(['C', Pc_1.x, Pc_1.y, Pa_1.x, Pa_1.y]);
-//	graphicsCommands.push(['C', Pc_2.x, Pc_2.y, Pa_2.x, Pa_2.y]);
-//	graphicsCommands.push(['C', Pc_3.x, Pc_3.y, Pa_3.x, Pa_3.y]);
-//	graphicsCommands.push(['C', Pc_4.x, Pc_4.y, P3.x, P3.y]);        
+	//	graphicsCommands.push(['C', Pc_1.x, Pc_1.y, Pa_1.x, Pa_1.y]);
+	//	graphicsCommands.push(['C', Pc_2.x, Pc_2.y, Pa_2.x, Pa_2.y]);
+	//	graphicsCommands.push(['C', Pc_3.x, Pc_3.y, Pa_3.x, Pa_3.y]);
+	//	graphicsCommands.push(['C', Pc_4.x, Pc_4.y, P3.x, P3.y]);        
 	
 	currentX = x;
 	currentY = y;
@@ -624,7 +624,7 @@ b2Vec2 MiniSVGWeb::getMiddle(b2Vec2 P0, b2Vec2 P1) {
 
 SvgArc MiniSVGWeb::computeSvgArc(float rx, float ry, float angle, 
 								 bool largeArcFlag, bool sweepFlag,
-									  float x, float y, float LastPointX, float LastPointY) {
+								 float x, float y, float LastPointX, float LastPointY) {
 	
 	//store before we do anything with it     
 	float xAxisRotation = angle;     
@@ -710,7 +710,7 @@ SvgArc MiniSVGWeb::computeSvgArc(float rx, float ry, float angle,
 	angleStart = fmod(angleStart, 360.0f);
 	
 	return SvgArc(LastPointX, LastPointY, angleStart, angleExtent, rx, ry, xAxisRotation, cx, cy);
-//	return Object({x:LastPointX,y:LastPointY,startAngle:angleStart,arc:angleExtent,radius:rx,yRadius:ry,xAxisRotation:xAxisRotation, cx:cx,cy:cy});
+	//	return Object({x:LastPointX,y:LastPointY,startAngle:angleStart,arc:angleExtent,radius:rx,yRadius:ry,xAxisRotation:xAxisRotation, cx:cx,cy:cy});
 }
 
 float MiniSVGWeb::degreesToRadians(float angle) {
