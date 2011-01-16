@@ -1,6 +1,6 @@
 /*
  *  stdaddtions.cpp
- *  iPadSample
+ *  RopeBurnXCode
  *
  *  Created by Timothy Kerchmar on 1/5/11.
  *  Copyright 2011 The Night School, LLC. All rights reserved.
@@ -28,8 +28,8 @@ vector<string> split(string input, string splitOn) {
 }
 
 string::size_type replace(string& s,
-							   const string& from,
-							   const string& to)
+						  const string& from,
+						  const string& to)
 {
 	string::size_type cnt(string::npos);
 	
@@ -58,7 +58,7 @@ string toString(double val) {
 	return returnVal.str();
 }
 
-float stringToFloat(string &str) {
+float stringToFloat(string str) {
 	istringstream strStream(str);
 	float someFloat;
 	strStream >> someFloat;
@@ -66,4 +66,18 @@ float stringToFloat(string &str) {
 	if(strStream.bad() || strStream.fail()) return FloatNAN;
 	
 	return someFloat;
+}
+
+int stringToInt(string str) {
+	istringstream strStream(str);
+	int someInt;
+	strStream >> someInt;
+	
+	if(strStream.bad() || strStream.fail()) return 0;
+	
+	return someInt;
+}
+
+bool isValid(b2Vec2 vec) {
+	return !isnan(vec.x) && !isnan(vec.y);
 }

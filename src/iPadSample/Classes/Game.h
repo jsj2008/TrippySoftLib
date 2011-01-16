@@ -29,4 +29,5 @@ public:
 	
 	b2Vec2 amountDragged;
 	b2Vec2 dragSpeed;
+	TiXmlDocument settings;
 };

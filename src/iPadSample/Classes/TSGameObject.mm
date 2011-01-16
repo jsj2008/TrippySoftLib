@@ -13,6 +13,7 @@ using namespace std;
 #include <Box2D/Box2D.h>
 #include "TSBox2DBody.h"
 #include "Game.h"
+#include "b2XML.h"
 
 int TSGameObject::totalBodies = 0;
 int TSGameObject::totalFixtures = 0;
@@ -21,9 +22,9 @@ TSGameObject::TSGameObject(tr1::unordered_map<string, string> &attributes) {
 	this->friction = 1.0f;
 	this->restitution = 0.0f;
 	this->massOverride = NULL;
-	this->id = "not yet set";
-	
-	string id = attributes["id"];
+	this->id = attributes["id"];
+	this->isCoin = !attributes["scoreincrease"].empty();
+	this->animation = NULL;
 	
 	body = Game::box2D->groundBody;
 }
@@ -31,37 +32,42 @@ TSGameObject::TSGameObject(tr1::unordered_map<string, string> &attributes) {
 void TSGameObject::complete() {
 	b2PolygonShape* polygonShape;
 	b2CircleShape* circleShape;
+	b2EdgeShape* edgeShape;
 	
-	if(!body || body != Game::box2D->groundBody) {
-		b2Vec2 centroid;
-		for(int i = 0; i < shapes.size(); i++) {
-			b2Shape* shape = shapes[i];
-			
-			switch(shape->GetType()) {
-				case b2Shape::e_polygon:
-					polygonShape = (b2PolygonShape *)shape;
-					centroid += polygonShape->m_centroid;
-					break;
-				case b2Shape::e_circle:
-					circleShape = (b2CircleShape *)shape;
-					centroid += circleShape->m_p;
-					break;
-			}
+	b2Vec2 centroid(0.0f, 0.0f);
+	for(int i = 0; i < shapes.size(); i++) {
+		b2Shape* shape = shapes[i];
+		
+		switch(shape->GetType()) {
+			case b2Shape::e_polygon:
+				polygonShape = (b2PolygonShape *)shape;
+				centroid += polygonShape->m_centroid;
+				break;
+			case b2Shape::e_circle:
+				circleShape = (b2CircleShape *)shape;
+				centroid += circleShape->m_p;
+				break;
+			case b2Shape::e_edge:
+				edgeShape = (b2EdgeShape *)shape;
+				centroid += 0.5f * (edgeShape->m_vertex1 + edgeShape->m_vertex2);
+				break;
 		}
-		
-		centroid *= 1.0f / shapes.size();
-		
-		if(animation) {
-			animation->x = centroid.x * Game::box2D->drawScale;
-			animation->y = centroid.y * Game::box2D->drawScale;
-		}
-		
-		if(!body) return;
-		
+	}
+	
+	centroid *= 1.0f / shapes.size();
+	
+	if(animation) {
+		animation->x = centroid.x * Game::box2D->drawScale;
+		animation->y = centroid.y * Game::box2D->drawScale;
+	}
+	
+	if(!body) return;
+	
 //		if(isNaN(centroid.x) || isNaN(centroid.y)) {
 //			TS.log("uh oh, found NaN");
 //		}
-		
+	if(body != Game::box2D->groundBody) {
+	
 		body->SetTransform(centroid, 0.0f);
 		body->SetAwake(false);
 		
@@ -81,7 +87,21 @@ void TSGameObject::complete() {
 		}
 	}
 	
-	if(body->GetUserData())
+	// could also put into overload of TSBox2DBody::CreateFixture
+	if(isCoin) {
+		for(TiXmlNode* node = Game::getInstance()->settings.FirstChild("frame")->FirstChild("defaultShapes")->FirstChild("coin")->FirstChild(); node; node = node->NextSibling()) {
+			b2FixtureDef fixtureDef = b2XML::loadFixtureDef(node->ToElement());
+			fixtureDef.shape = b2XML::loadShape(node->ToElement());
+			
+			if(fixtureDef.shape->m_type == b2Shape::e_circle) {
+				((b2CircleShape*)fixtureDef.shape)->m_p += centroid;
+			}
+			
+			fixtureDef.density = 1.0f;
+			body->CreateFixture(&fixtureDef);
+		}
+	} 
+	else if(body->GetUserData())
 		((TSBox2DBody *)body->GetUserData())->CreateFixtures(shapes, friction, restitution);
 	else
 		for(int k = 0; k < shapes.size(); k++)

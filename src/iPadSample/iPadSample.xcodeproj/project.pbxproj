@@ -69,13 +69,14 @@
 		DB3E256712DD2CCF00D15D82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E256212DD2CCF00D15D82 /* main.m */; };
 		DB3E256812DD2CCF00D15D82 /* PolyDecompBayazit.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB3E256412DD2CCF00D15D82 /* PolyDecompBayazit.mm */; };
 		DB3E256912DD2CCF00D15D82 /* TSSprite.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB3E256612DD2CCF00D15D82 /* TSSprite.mm */; };
-		DB3E256C12DD2D2900D15D82 /* iPadSample-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DB3E256B12DD2D2900D15D82 /* iPadSample-Info.plist */; };
 		DB56948E12DD480E00E8D630 /* tinyxmlparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB56948812DD480E00E8D630 /* tinyxmlparser.cpp */; };
 		DB56948F12DD480E00E8D630 /* tinyxmlerror.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB56948912DD480E00E8D630 /* tinyxmlerror.cpp */; };
 		DB56949012DD480E00E8D630 /* tinyxml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB56948A12DD480E00E8D630 /* tinyxml.cpp */; };
 		DB56949112DD480E00E8D630 /* tinystr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB56948B12DD480E00E8D630 /* tinystr.cpp */; };
 		DB5694D012DD49DE00E8D630 /* level1-foreground-optimized-2.png in Resources */ = {isa = PBXBuildFile; fileRef = DB5694CE12DD49DE00E8D630 /* level1-foreground-optimized-2.png */; };
 		DB5694D112DD49DE00E8D630 /* level1-foreground-optimized-3.png in Resources */ = {isa = PBXBuildFile; fileRef = DB5694CF12DD49DE00E8D630 /* level1-foreground-optimized-3.png */; };
+		DB569A5812E2C70F00E8D630 /* settings.xml in Resources */ = {isa = PBXBuildFile; fileRef = DB569A5712E2C70F00E8D630 /* settings.xml */; };
+		DB569A7E12E2CA9D00E8D630 /* b2XML.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB569A7D12E2CA9D00E8D630 /* b2XML.mm */; };
 		DB5B0D8B12A6A1EE001A95B3 /* TSRenderer.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB5B0D8A12A6A1EE001A95B3 /* TSRenderer.mm */; };
 		DB9442F312BBAD2E00BE546C /* GLES-Render.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB9442F212BBAD2E00BE546C /* GLES-Render.mm */; };
 		DB9C9F0212B8712300A4617F /* Game.mm in Sources */ = {isa = PBXBuildFile; fileRef = DB9C9F0112B8712300A4617F /* Game.mm */; };
@@ -225,6 +226,9 @@
 		DB56948D12DD480E00E8D630 /* tinystr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinystr.h; path = ../tinyxml/tinystr.h; sourceTree = SOURCE_ROOT; };
 		DB5694CE12DD49DE00E8D630 /* level1-foreground-optimized-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "level1-foreground-optimized-2.png"; path = "../../deploy/screenshots/level1-foreground-optimized-2.png"; sourceTree = SOURCE_ROOT; };
 		DB5694CF12DD49DE00E8D630 /* level1-foreground-optimized-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "level1-foreground-optimized-3.png"; path = "../../deploy/screenshots/level1-foreground-optimized-3.png"; sourceTree = SOURCE_ROOT; };
+		DB569A5712E2C70F00E8D630 /* settings.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = settings.xml; sourceTree = "<group>"; };
+		DB569A7C12E2CA9D00E8D630 /* b2XML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = b2XML.h; sourceTree = "<group>"; };
+		DB569A7D12E2CA9D00E8D630 /* b2XML.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = b2XML.mm; sourceTree = "<group>"; };
 		DB5B0D8912A6A1EE001A95B3 /* TSRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TSRenderer.h; sourceTree = "<group>"; };
 		DB5B0D8A12A6A1EE001A95B3 /* TSRenderer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TSRenderer.mm; sourceTree = "<group>"; };
 		DB9442F112BBAD2E00BE546C /* GLES-Render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GLES-Render.h"; sourceTree = "<group>"; };
@@ -286,6 +290,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DB569A7C12E2CA9D00E8D630 /* b2XML.h */,
+				DB569A7D12E2CA9D00E8D630 /* b2XML.mm */,
 				DB3E256A12DD2CF000D15D82 /* iPadSample_Prefix.pch */,
 				DB3E256212DD2CCF00D15D82 /* main.m */,
 				DB3E256312DD2CCF00D15D82 /* PolyDecompBayazit.h */,
@@ -387,6 +393,7 @@
 				DB307E2412B47D6D00C44BE0 /* level1-foreground-optimized-0.png */,
 				DB307E2512B47D6D00C44BE0 /* level1-foreground-optimized-1.png */,
 				DB307E3112B47D6D00C44BE0 /* level1-foreground-optimized-tilemap.xml */,
+				DB569A5712E2C70F00E8D630 /* settings.xml */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -618,9 +625,9 @@
 				DBD306FB12D6B56A00AD498B /* level1-physics.svg in Resources */,
 				DB3E253312DD2C7700D15D82 /* Box2DConfig.cmake in Resources */,
 				DB3E253412DD2C7700D15D82 /* CMakeLists.txt in Resources */,
-				DB3E256C12DD2D2900D15D82 /* iPadSample-Info.plist in Resources */,
 				DB5694D012DD49DE00E8D630 /* level1-foreground-optimized-2.png in Resources */,
 				DB5694D112DD49DE00E8D630 /* level1-foreground-optimized-3.png in Resources */,
+				DB569A5812E2C70F00E8D630 /* settings.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -704,6 +711,7 @@
 				DB56948F12DD480E00E8D630 /* tinyxmlerror.cpp in Sources */,
 				DB56949012DD480E00E8D630 /* tinyxml.cpp in Sources */,
 				DB56949112DD480E00E8D630 /* tinystr.cpp in Sources */,
+				DB569A7E12E2CA9D00E8D630 /* b2XML.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

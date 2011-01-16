@@ -21,6 +21,15 @@ Game* Game::getInstance() {
 }
 
 Game::Game() {
+	
+	if(!instance) instance = this;
+	
+	NSString* path = [[NSBundle mainBundle] pathForResource:@"settings" ofType:@"xml"];
+	if(!settings.LoadFile([path cStringUsingEncoding:1])) {
+		NSLog(@"couldn't find settings.xml");
+		return;
+	}
+	
 	tilemap = new TSTilemap(@"level1-foreground-optimized-tilemap");
 	box2D = new TSBox2D(b2Vec2(0.0f, 38.0f));
 	physicsSVG = new TSBox2DSVG(@"level1-physics", box2D);

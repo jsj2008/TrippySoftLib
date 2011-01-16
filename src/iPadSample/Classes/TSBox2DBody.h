@@ -31,8 +31,8 @@ public:
 	TSBox2DBody* getUserDataB(b2Contact* contact);
 	void render(/* destination:BitmapData, */ int offsetX, int offsetY, float timeStep, float alpha, bool isOffScreen, TSMatrix* matrix = NULL);
 	void update(float timeStep, bool isOffScreen = false);
-	void CreateFixtures(std::vector<b2Shape*> shapes, float friction, float restitution);
-	void createFixture(b2Shape* shape, float friction, float restitution);
+	virtual void CreateFixtures(std::vector<b2Shape*> shapes, float friction, float restitution);
+	virtual void createFixture(b2Shape* shape, float friction, float restitution);
 	void initActiveBehavior(b2Contact* contact);
 	void HandleBeginContact(b2Contact* contact);
 	void BeginContact(b2Contact* contact);

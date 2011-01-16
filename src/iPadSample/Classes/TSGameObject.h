@@ -31,7 +31,8 @@ public:
 	void addCircle(b2Vec2 center, float radius);
 	void createFixture(b2Shape* shape);
 	void complete();
-		
+	
+	bool isCoin;	
 	b2Body* body;
 	float friction;
 	float restitution;

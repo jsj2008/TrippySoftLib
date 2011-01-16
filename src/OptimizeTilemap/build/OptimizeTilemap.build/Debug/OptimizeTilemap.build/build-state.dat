@@ -41,8 +41,8 @@ cCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal
 cLd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/OptimizeTilemap" normal x86_64
 
 N/Developer/SDKs/MacOSX10.6.sdk
-c000000004C5342BA00000000000000EE
-t1280524986
+c000000004CAA740B00000000000000EE
+t1286239243
 s238
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/arpa/inet.h
@@ -51,18 +51,18 @@ t1254463586
 s5427
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/assert.h
-c000000004AC59C810000000000000DCB
-t1254464641
+c000000004BBD2CE90000000000000DCB
+t1270689001
 s3531
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/ctype.h
-c000000004AC59C810000000000002C18
-t1254464641
+c000000004BBD2CE90000000000002C18
+t1270689001
 s11288
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/errno.h
-c000000004AC59C8100000000000003EB
-t1254464641
+c000000004BBD2CE900000000000003EB
+t1270689001
 s1003
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/fcntl.h
@@ -86,8 +86,8 @@ t1254464641
 s9497
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
-c000000004AC599B500000000000004F1
-t1254463925
+c000000004A5C14A000000000000004F1
+t1247548576
 s1265
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/net/if.h
@@ -121,8 +121,8 @@ t1254464641
 s1376
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/setjmp.h
-c000000004AC59C810000000000000438
-t1254464641
+c000000004BBD2CE90000000000000438
+t1270689001
 s1080
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/signal.h
@@ -131,23 +131,23 @@ t1254464642
 s5360
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
-c000000004AC59C820000000000004174
-t1254464642
+c000000004BBD2CE90000000000004174
+t1270689001
 s16756
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
-c000000004AC59C820000000000002DF5
-t1254464642
+c000000004BBD2CE90000000000002DF5
+t1270689001
 s11765
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
-c000000004AC59C820000000000001731
-t1254464642
+c000000004BBD2CE90000000000001731
+t1270689001
 s5937
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/strings.h
-c000000004AC59C810000000000000DA4
-t1254464641
+c000000004BBD2CE90000000000000DA4
+t1270689001
 s3492
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/event.h
@@ -196,8 +196,8 @@ t1280173236
 s7703
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/types.h
-c000000004C4DE4B40000000000002905
-t1280173236
+c000000004C2399480000000000002905
+t1277401416
 s10501
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/uio.h
@@ -216,13 +216,13 @@ t1254464641
 s1236
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
-c000000004AC59C82000000000000178E
-t1254464642
+c000000004BBD2CE9000000000000178E
+t1270689001
 s6030
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/unistd.h
-c000000004AC59C82000000000000563E
-t1254464642
+c000000004BBD2CE9000000000000563E
+t1270689001
 s22078
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/include/wchar.h
@@ -236,18 +236,18 @@ t1254464951
 s5432
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/limits.h
-c000000004AC59DB70000000000000C7E
-t1254464951
+c000000004A11EB240000000000000C7E
+t1242688292
 s3198
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdarg.h
-c000000004AC59DB700000000000010DD
-t1254464951
+c000000004A11EB2400000000000010DD
+t1242688292
 s4317
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stddef.h
-c000000004AC59DB70000000000003197
-t1254464951
+c000000004A11EB240000000000003197
+t1242688292
 s12695
 
 N/Developer/SDKs/MacOSX10.6.sdk/usr/lib/gcc/i686-apple-darwin10/4.2.1/include/stdint.h
@@ -19487,6 +19487,592 @@ i<malloc.h>
 i<unix.h>
 i<stdio.h>
 
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/png.c
+c000000004D2CFCEE0000000000006BBA
+t1294793966
+s27578
+i"png.h"
+i"pngpriv.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/png.h
+c000000004D2CFCEE000000000001BFFF
+t1294793966
+s114687
+i"zlib.h"
+i"pngconf.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/pngerror.c
+c000000004D2CFCEE0000000000003020
+t1294793966
+s12320
+i"png.h"
+i"pngpriv.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/pngget.c
+c000000004D2CFCEE0000000000005EE9
+t1294793966
+s24297
+i"png.h"
+i"pngpriv.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/pngmem.c
+c000000004D2CFCEE000000000000441A
+t1294793966
+s17434
+i"png.h"
+i"pngpriv.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/pngpread.c
+c000000004D2CFCEE000000000000BCD7
+t1294793966
+s48343
+i"png.h"
+i"pngpriv.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/pngread.c
+c000000004D2CFCEE000000000000A85A
+t1294793966
+s43098
+i"png.h"
+i"pngpriv.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/pngrio.c
+c000000004D2CFCEE0000000000001564
+t1294793966
+s5476
+i"png.h"
+i"pngpriv.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/pngrtran.c
+c000000004D2CFCEE000000000002336F
+t1294793966
+s144239
+i"png.h"
+i"pngpriv.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/pngrutil.c
+c000000004D2CFCEE0000000000018964
+t1294793966
+s100708
+i"png.h"
+i"pngpriv.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/pngset.c
+c000000004D2CFCEE0000000000008B44
+t1294793966
+s35652
+i"png.h"
+i"pngpriv.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/pngtrans.c
+c000000004D2CFCEE00000000000052F6
+t1294793966
+s21238
+i"png.h"
+i"pngpriv.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/pngwio.c
+c000000004D2CFCEE0000000000001ED0
+t1294793966
+s7888
+i"png.h"
+i"pngpriv.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/pngwrite.c
+c000000004D2CFCEE000000000000BA52
+t1294793966
+s47698
+i"png.h"
+i"pngpriv.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/pngwtran.c
+c000000004D2CFCEE0000000000004402
+t1294793966
+s17410
+i"png.h"
+i"pngpriv.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/pngwutil.c
+c000000004D2CFCEE00000000000154A1
+t1294793966
+s87201
+i"png.h"
+i"pngpriv.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../tinyxml/tinystr.cpp
+c000000004D2CFCEE0000000000000A2A
+t1294793966
+s2602
+i"tinystr.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../tinyxml/tinyxml.cpp
+c000000004D2CFCEE0000000000008E53
+t1294793966
+s36435
+i<ctype.h>
+i<sstream>
+i<iostream>
+i"tinyxml.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../tinyxml/tinyxml.h
+c000000004D2CFCEE000000000000FB3C
+t1294793966
+s64316
+i<ctype.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<assert.h>
+i<string>
+i<iostream>
+i<sstream>
+i"tinystr.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../tinyxml/tinyxmlerror.cpp
+c000000004D2CFCEE00000000000006F4
+t1294793966
+s1780
+i"tinyxml.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../tinyxml/tinyxmlparser.cpp
+c000000004D2CFCEE0000000000009149
+t1294793966
+s37193
+i<ctype.h>
+i<stddef.h>
+i"tinyxml.h"
+i<windows.h>
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../zlib123/adler32.c
+c000000004D2CFCEE0000000000001264
+t1294793966
+s4708
+i"zlib.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../zlib123/compress.c
+c000000004D2CFCEE0000000000000A08
+t1294793966
+s2568
+i"zlib.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../zlib123/crc32.c
+c000000004D2CFCEE0000000000003530
+t1294793966
+s13616
+i<stdio.h>
+i"zutil.h"
+i<limits.h>
+i"crc32.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../zlib123/deflate.c
+c000000004D2CFCEE000000000001016B
+t1294793966
+s65899
+i"deflate.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../zlib123/gzio.c
+c000000004D2CFCEE0000000000007D81
+t1294793966
+s32129
+i<stdio.h>
+i"zutil.h"
+i<stdarg.h>
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../zlib123/infback.c
+c000000004D2CFCEE0000000000005903
+t1294793966
+s22787
+i"zutil.h"
+i"inftrees.h"
+i"inflate.h"
+i"inffast.h"
+i"inffixed.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../zlib123/inffast.c
+c000000004D2CFCEE0000000000003256
+t1294793966
+s12886
+i"zutil.h"
+i"inftrees.h"
+i"inflate.h"
+i"inffast.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../zlib123/inflate.c
+c000000004D2CFCEE000000000000C4A9
+t1294793966
+s50345
+i"zutil.h"
+i"inftrees.h"
+i"inflate.h"
+i"inffast.h"
+i"inffixed.h"
+i<stdio.h>
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../zlib123/inftrees.c
+c000000004D2CFCEE0000000000003705
+t1294793966
+s14085
+i"zutil.h"
+i"inftrees.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../zlib123/trees.c
+c000000004D2CFCEE000000000000B0BE
+t1294793966
+s45246
+i"deflate.h"
+i<ctype.h>
+i"trees.h"
+i<stdio.h>
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../zlib123/uncompr.c
+c000000004D2CFCEE0000000000000864
+t1294793966
+s2148
+i"zlib.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../zlib123/zlib.h
+c000000004D2CFCEE00000000000107D9
+t1294793966
+s67545
+i"zconf.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../zlib123/zutil.c
+c000000004D2CFCEE0000000000001D1E
+t1294793966
+s7454
+i"zutil.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/Debug/OptimizeTilemap
+t1294793965
+s716312
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/OptimizeTilemap.LinkFileList
+c000000004D2CFCED0000000000001626
+t1294793965
+s5670
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/adler32.o
+t1294793965
+s5120
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/compress.o
+t1294793965
+s4860
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/crc32.o
+t1294793965
+s26236
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/deflate.o
+t1294793965
+s37768
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/gzio.o
+t1294793965
+s29168
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/image.o
+t1294793965
+s18272
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/infback.o
+t1294793965
+s17016
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/inffast.o
+t1294793965
+s7688
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/inflate.o
+t1294793965
+s29212
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/inftrees.o
+t1294793965
+s6232
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/main.o
+t1294793965
+s529812
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/png.o
+t1294793965
+s33660
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngerror.o
+t1294793965
+s19632
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngget.o
+t1294793965
+s38388
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngmem.o
+t1294793965
+s19256
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngpread.o
+t1294793965
+s48248
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngread.o
+t1294793965
+s39848
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngrio.o
+t1294793965
+s14724
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngrtran.o
+t1294793965
+s80700
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngrutil.o
+t1294793965
+s78120
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngset.o
+t1294793965
+s42172
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngtrans.o
+t1294793965
+s24972
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngwio.o
+t1294793965
+s15748
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngwrite.o
+t1294793965
+s41264
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngwtran.o
+t1294793965
+s21704
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngwutil.o
+t1294793965
+s69412
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/selection.o
+t1294793965
+s4776
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/tilemap.o
+t1294793965
+s294944
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/tinystr.o
+t1294793965
+s1464
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/tinyxml.o
+t1294793965
+s265684
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/tinyxmlerror.o
+t1294793965
+s73572
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/tinyxmlparser.o
+t1294793965
+s167144
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/trees.o
+t1294793965
+s36976
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/uncompr.o
+t1294793965
+s3936
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/zutil.o
+t1294793965
+s5268
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/image.cpp
+c000000004D2CFCED0000000000000CED
+t1294793965
+s3309
+i"image.h"
+i<stdlib.h>
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/image.h
+c000000004D2CFCED00000000000001B4
+t1294793965
+s436
+i<png.h>
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/main.cpp
+c000000004D2CFCED0000000000001D21
+t1294793965
+s7457
+i<unistd.h>
+i<stdlib.h>
+i<stdio.h>
+i<string.h>
+i<stdarg.h>
+i<iostream>
+i<fstream>
+i<tr1/unordered_map>
+i"tinyxml.h"
+i"image.h"
+i"selection.h"
+i"tilemap.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/selection.cpp
+c000000004D2CFCED0000000000000571
+t1294793965
+s1393
+i"selection.h"
+i"image.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/selection.h
+c000000004D2CFCED00000000000001AE
+t1294793965
+s430
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/tilemap.cpp
+c000000004D2CFCED0000000000000D01
+t1294793965
+s3329
+i<iostream>
+i<fstream>
+i"tilemap.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/tilemap.h
+c000000004D2CFCED00000000000001ED
+t1294793965
+s493
+i<vector>
+i<string>
+i"tinyxml.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/libpng/png.h
+c000000004D2CFCEE000000000001BFFF
+t1294793966
+s114687
+i"zlib.h"
+i"pngconf.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/libpng/pngconf.h
+c000000004D2CFCEE000000000000B552
+t1294793966
+s46418
+i<limits.h>
+i"config.h"
+i"pngusr.h"
+i<stdio.h>
+i<stdio.h>
+i<sys/types.h>
+i<setjmp.h>
+i<strings.h>
+i<string.h>
+i<time.h>
+i<dos.h>
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/libpng/pngpriv.h
+c000000004D2CFCEE0000000000008D40
+t1294793966
+s36160
+i<stdlib.h>
+i<fp.h>
+i<math.h>
+i<m68881.h>
+i<mem.h>
+i<alloc.h>
+i<windows.h>
+i<malloc.h>
+i<crtdbg.h>
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/tinyxml/tinystr.h
+c000000004D2CFCEE000000000000224F
+t1294793966
+s8783
+i<assert.h>
+i<string.h>
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/tinyxml/tinyxml.h
+c000000004D2CFCEE000000000000FB3C
+t1294793966
+s64316
+i<ctype.h>
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<assert.h>
+i<string>
+i<iostream>
+i<sstream>
+i"tinystr.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/zlib123/crc32.h
+c000000004D2CFCEE0000000000007921
+t1294793966
+s31009
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/zlib123/deflate.h
+c000000004D2CFCEE000000000000309D
+t1294793966
+s12445
+i"zutil.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/zlib123/inffast.h
+c000000004D2CFCEE00000000000001A2
+t1294793966
+s418
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/zlib123/inffixed.h
+c000000004D2CFCEE0000000000001925
+t1294793966
+s6437
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/zlib123/inflate.h
+c000000004D2CFCEE000000000000178F
+t1294793966
+s6031
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/zlib123/inftrees.h
+c000000004D2CFCEE000000000000097C
+t1294793966
+s2428
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/zlib123/trees.h
+c000000004D2CFCEE000000000000217C
+t1294793966
+s8572
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/zlib123/zconf.h
+c000000004D2CFCEE0000000000002694
+t1294793966
+s9876
+i<windows.h>
+i<sys/types.h>
+i<unistd.h>
+i<unixio.h>
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/zlib123/zlib.h
+c000000004D2CFCEE00000000000107D9
+t1294793966
+s67545
+i"zconf.h"
+
+N/Users/pTymN/The Night School/TrippySoftLib/src/zlib123/zutil.h
+c000000004D2CFCEE0000000000001BD8
+t1294793966
+s7128
+i"zlib.h"
+i<stddef.h>
+i<string.h>
+i<stdlib.h>
+i<errno.h>
+i<alloc.h>
+i<malloc.h>
+i<malloc.h>
+i<unix.h>
+i<stdio.h>
+
 CCheck dependencies
 r0
 lSLF07#2@18"Check dependencies310516283#310516283#0(0"0(0#1#0"8631322752#0"0#
@@ -19530,6 +20116,9 @@ xx86_64
 xc
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@102"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/adler32.c310500924#310500924#0(0"0(0#0#94"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/adler32.c8616404192#1905"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/adler32.c" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/adler32.o"0#
+
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/adler32.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../zlib123/adler32.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/argv_traverser.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../../../../Desktop/RopeBurn/Utilities/boost/test/utils/runtime/cla/argv_traverser.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 s309987942.328690
@@ -19649,6 +20238,9 @@ xx86_64
 xc
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@103"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/compress.c310500924#310500924#0(0"0(0#0#95"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/compress.c8627421216#1907"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/compress.c" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/compress.o"0#
+
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/compress.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../zlib123/compress.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/config_file.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../../../../Desktop/RopeBurn/Utilities/boost/test/utils/runtime/file/config_file.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 s309987942.539107
@@ -19831,6 +20423,9 @@ xx86_64
 xc
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@100"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/crc32.c310500924#310500924#0(0"0(0#0#92"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/crc32.c8628605856#1901"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/crc32.c" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/crc32.o"0#
+
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/crc32.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../zlib123/crc32.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/create_tables.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../../../../Desktop/RopeBurn/Utilities/boost/spirit/home/support/char_encoding/unicode/create_tables.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 s309987941.988542
@@ -20042,6 +20637,9 @@ xc
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@102"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/deflate.c310500924#310500924#0(0"0(0#0#94"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/deflate.c8616550496#1905"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/deflate.c" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/deflate.o"0#
 
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/deflate.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../zlib123/deflate.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/dual_name_parameter.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../../../../Desktop/RopeBurn/Utilities/boost/test/utils/runtime/cla/dual_name_parameter.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 s309987942.377822
 e309987942.404908
@@ -20179,6 +20777,9 @@ xc
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@99"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/gzio.c310500924#310500924#0(0"0(0#0#91"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/gzio.c8627170304#1899"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/gzio.c" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/gzio.o"0#
 
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/gzio.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../zlib123/gzio.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/id_policy.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../../../../Desktop/RopeBurn/Utilities/boost/test/utils/runtime/cla/id_policy.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 s309987942.404992
 e309987942.431049
@@ -20249,6 +20850,9 @@ o/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/image
 o/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/image.cpp:61: warning: 'rowbytes' is deprecated (declared at ../libpng/png.h:635)
 lSLF07#2@91"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/image.cpp310515913#310515913#0(1690"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/image.cpp: In function 'Image* read_png_file(const char*)':/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/image.cpp:47: warning: 'width' is deprecated (declared at ../libpng/png.h:632)/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/image.cpp:47: warning: 'width' is deprecated (declared at ../libpng/png.h:632)/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/image.cpp:48: warning: 'height' is deprecated (declared at ../libpng/png.h:633)/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/image.cpp:48: warning: 'height' is deprecated (declared at ../libpng/png.h:633)/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/image.cpp:49: warning: 'color_type' is deprecated (declared at ../libpng/png.h:640)/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/image.cpp:49: warning: 'color_type' is deprecated (declared at ../libpng/png.h:640)/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/image.cpp:50: warning: 'bit_depth' is deprecated (declared at ../libpng/png.h:639)/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/image.cpp:50: warning: 'bit_depth' is deprecated (declared at ../libpng/png.h:639)/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/image.cpp:61: warning: 'rowbytes' is deprecated (declared at ../libpng/png.h:635)/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/image.cpp:61: warning: 'rowbytes' is deprecated (declared at ../libpng/png.h:635)10(22@55"'width' is deprecated (declared at ../libpng/png.h:632)310515913#134#153#0(6@83"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/image.cpp310515898#47#0#47#0#33"'*' is deprecated (declared at *)0(22@55"'width' is deprecated (declared at ../libpng/png.h:632)310515913#287#153#0(6@83"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/image.cpp310515898#47#0#47#0#33"'*' is deprecated (declared at *)0(22@56"'height' is deprecated (declared at ../libpng/png.h:633)310515913#440#154#0(6@83"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/image.cpp310515898#48#0#48#0#33"'*' is deprecated (declared at *)0(22@56"'height' is deprecated (declared at ../libpng/png.h:633)310515913#594#154#0(6@83"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/image.cpp310515898#48#0#48#0#33"'*' is deprecated (declared at *)0(22@60"'color_type' is deprecated (declared at ../libpng/png.h:640)310515913#748#158#0(6@83"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/image.cpp310515898#49#0#49#0#33"'*' is deprecated (declared at *)0(22@60"'color_type' is deprecated (declared at ../libpng/png.h:640)310515913#906#158#0(6@83"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/image.cpp310515898#49#0#49#0#33"'*' is deprecated (declared at *)0(22@59"'bit_depth' is deprecated (declared at ../libpng/png.h:639)310515913#1064#157#0(6@83"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/image.cpp310515898#50#0#50#0#33"'*' is deprecated (declared at *)0(22@59"'bit_depth' is deprecated (declared at ../libpng/png.h:639)310515913#1221#157#0(6@83"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/image.cpp310515898#50#0#50#0#33"'*' is deprecated (declared at *)0(22@58"'rowbytes' is deprecated (declared at ../libpng/png.h:635)310515913#1378#156#0(6@83"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/image.cpp310515898#61#0#61#0#33"'*' is deprecated (declared at *)0(22@58"'rowbytes' is deprecated (declared at ../libpng/png.h:635)310515913#1534#156#0(6@83"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/image.cpp310515898#61#0#61#0#33"'*' is deprecated (declared at *)0(0#0#83"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/image.cpp8616739328#1911"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/image.cpp" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/image.o"0#
 
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/image.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/image.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/infback.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/infback.c" normal x86_64 c com.apple.compilers.gcc.4_2
 s310500924.431330
 e310500924.522263
@@ -20261,6 +20865,9 @@ xx86_64
 xc
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@102"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/infback.c310500924#310500924#0(0"0(0#0#94"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/infback.c8633811552#1905"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/infback.c" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/infback.o"0#
+
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/infback.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../zlib123/infback.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/inffast.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/inffast.c" normal x86_64 c com.apple.compilers.gcc.4_2
 s310500924.506047
@@ -20275,6 +20882,9 @@ xc
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@102"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/inffast.c310500924#310500924#0(0"0(0#0#94"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/inffast.c8629851680#1905"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/inffast.c" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/inffast.o"0#
 
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/inffast.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../zlib123/inffast.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/inflate.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/inflate.c" normal x86_64 c com.apple.compilers.gcc.4_2
 s310500924.522361
 e310500924.702232
@@ -20287,6 +20897,9 @@ xx86_64
 xc
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@102"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/inflate.c310500924#310500924#0(0"0(0#0#94"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/inflate.c8628522208#1905"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/inflate.c" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/inflate.o"0#
+
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/inflate.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../zlib123/inflate.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/inftrees.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/inftrees.c" normal x86_64 c com.apple.compilers.gcc.4_2
 s310500924.559752
@@ -20301,6 +20914,9 @@ xc
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@103"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/inftrees.c310500924#310500924#0(0"0(0#0#95"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/inftrees.c8627753120#1907"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/inftrees.c" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/inftrees.o"0#
 
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/inftrees.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../zlib123/inftrees.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/main.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 s310516283.755201
 e310516283.756604
@@ -20313,6 +20929,9 @@ xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@90"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/main.cpp310516283#310516283#0(294"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/main.cpp: In function 'int main(int, char**)':/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/main.cpp:199: warning: format '%i' expects type 'int', but argument 2 has type 'long unsigned int'1(22@75"Format '%i' expects type 'int', but argument 2 has type 'long unsigned int'310516283#121#173#0(6@82"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/main.cpp310516272#199#0#199#0#56"format '*' expects type '*', but argument * has type '*'0(0#0#82"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/main.cpp8629122560#1909"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/main.cpp" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/main.o"0#
+
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/main.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/main.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/named_parameter.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../../../../Desktop/RopeBurn/Utilities/boost/test/utils/runtime/cla/named_parameter.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 s309987942.431141
@@ -20455,6 +21074,9 @@ xc
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@97"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/png.c310500922#310500923#0(0"0(0#0#89"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/png.c8627632032#1896"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/png.c" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/png.o"0#
 
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/png.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/png.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngerror.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngerror.c" normal x86_64 c com.apple.compilers.gcc.4_2
 s310500923.197851
 e310500923.271330
@@ -20467,6 +21089,9 @@ xx86_64
 xc
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@102"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngerror.c310500923#310500923#0(0"0(0#0#94"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngerror.c8618903744#1906"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngerror.c" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngerror.o"0#
+
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngerror.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/pngerror.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngget.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngget.c" normal x86_64 c com.apple.compilers.gcc.4_2
 s310500923.213671
@@ -20481,6 +21106,9 @@ xc
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@100"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngget.c310500923#310500923#0(0"0(0#0#92"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngget.c8617781632#1902"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngget.c" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngget.o"0#
 
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngget.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/pngget.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngmem.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngmem.c" normal x86_64 c com.apple.compilers.gcc.4_2
 s310500923.271428
 e310500923.347828
@@ -20493,6 +21121,9 @@ xx86_64
 xc
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@100"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngmem.c310500923#310500923#0(0"0(0#0#92"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngmem.c8616988544#1902"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngmem.c" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngmem.o"0#
+
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngmem.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/pngmem.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngpread.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngpread.c" normal x86_64 c com.apple.compilers.gcc.4_2
 s310500923.308470
@@ -20507,6 +21138,9 @@ xc
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@102"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngpread.c310500923#310500923#0(0"0(0#0#94"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngpread.c8616582336#1906"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngpread.c" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngpread.o"0#
 
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngpread.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/pngpread.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngread.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngread.c" normal x86_64 c com.apple.compilers.gcc.4_2
 s310500923.347912
 e310500923.488777
@@ -20519,6 +21153,9 @@ xx86_64
 xc
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@101"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngread.c310500923#310500923#0(0"0(0#0#93"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngread.c8633916832#1904"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngread.c" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngread.o"0#
+
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngread.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/pngread.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngrio.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngrio.c" normal x86_64 c com.apple.compilers.gcc.4_2
 s310500923.459019
@@ -20533,6 +21170,9 @@ xc
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@100"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngrio.c310500923#310500923#0(0"0(0#0#92"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngrio.c8629952352#1902"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngrio.c" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngrio.o"0#
 
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngrio.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/pngrio.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngrtran.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngrtran.c" normal x86_64 c com.apple.compilers.gcc.4_2
 s310500923.488875
 e310500923.819391
@@ -20545,6 +21185,9 @@ xx86_64
 xc
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@102"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngrtran.c310500923#310500923#0(0"0(0#0#94"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngrtran.c8629400992#1906"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngrtran.c" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngrtran.o"0#
+
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngrtran.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/pngrtran.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngrutil.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngrutil.c" normal x86_64 c com.apple.compilers.gcc.4_2
 s310500923.518329
@@ -20559,6 +21202,9 @@ xc
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@102"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngrutil.c310500923#310500923#0(0"0(0#0#94"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngrutil.c8628413888#1906"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngrutil.c" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngrutil.o"0#
 
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngrutil.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/pngrutil.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngset.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngset.c" normal x86_64 c com.apple.compilers.gcc.4_2
 s310500923.765775
 e310500923.999132
@@ -20571,6 +21217,9 @@ xx86_64
 xc
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@100"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngset.c310500923#310500924#0(0"0(0#0#92"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngset.c8630964896#1902"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngset.c" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngset.o"0#
+
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngset.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/pngset.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngtrans.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngtrans.c" normal x86_64 c com.apple.compilers.gcc.4_2
 s310500923.819479
@@ -20585,6 +21234,9 @@ xc
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@102"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngtrans.c310500923#310500923#0(0"0(0#0#94"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngtrans.c8629514688#1906"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngtrans.c" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngtrans.o"0#
 
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngtrans.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/pngtrans.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngwio.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngwio.c" normal x86_64 c com.apple.compilers.gcc.4_2
 s310500923.919792
 e310500923.989400
@@ -20597,6 +21249,9 @@ xx86_64
 xc
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@100"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngwio.c310500923#310500923#0(0"0(0#0#92"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngwio.c8633708992#1902"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngwio.c" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngwio.o"0#
+
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngwio.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/pngwio.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngwrite.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngwrite.c" normal x86_64 c com.apple.compilers.gcc.4_2
 s310500923.989491
@@ -20611,6 +21266,9 @@ xc
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@102"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngwrite.c310500923#310500924#0(0"0(0#0#94"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngwrite.c8632859712#1906"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngwrite.c" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngwrite.o"0#
 
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngwrite.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/pngwrite.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngwtran.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngwtran.c" normal x86_64 c com.apple.compilers.gcc.4_2
 s310500923.999216
 e310500924.083357
@@ -20623,6 +21281,9 @@ xx86_64
 xc
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@102"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngwtran.c310500923#310500924#0(0"0(0#0#94"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngwtran.c8631241408#1906"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngwtran.c" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngwtran.o"0#
+
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngwtran.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/pngwtran.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngwutil.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngwutil.c" normal x86_64 c com.apple.compilers.gcc.4_2
 s310500924.083449
@@ -20637,6 +21298,9 @@ xc
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@102"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngwutil.c310500924#310500924#0(0"0(0#0#94"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngwutil.c8599929600#1906"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../libpng/pngwutil.c" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngwutil.o"0#
 
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/pngwutil.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../libpng/pngwutil.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/selection.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/selection.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 s310515913.128810
 e310515913.194905
@@ -20649,6 +21313,9 @@ xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@95"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/selection.cpp310515913#310515913#0(0"0(0#0#87"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/selection.cpp8633220800#1919"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/selection.cpp" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/selection.o"0#
+
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/selection.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/selection.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/src.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../../../../Desktop/RopeBurn/Utilities/boost/asio/impl/src.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 s309987941.925723
@@ -20731,6 +21398,9 @@ xc++
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@93"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/tilemap.cpp310515312#310515313#0(0"0(0#0#85"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/tilemap.cpp8619485984#1915"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/tilemap.cpp" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/tilemap.o"0#
 
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/tilemap.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/tilemap.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/tinystr.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../tinyxml/tinystr.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 s310500924.746307
 e310500924.770257
@@ -20743,6 +21413,9 @@ xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@104"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../tinyxml/tinystr.cpp310500924#310500924#0(0"0(0#0#96"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../tinyxml/tinystr.cpp8631102912#1926"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../tinyxml/tinystr.cpp" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/tinystr.o"0#
+
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/tinystr.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../tinyxml/tinystr.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/tinyxml.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../tinyxml/tinyxml.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 s310500924.770479
@@ -20757,6 +21430,9 @@ xc++
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@104"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../tinyxml/tinyxml.cpp310500924#310500925#0(0"0(0#0#96"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../tinyxml/tinyxml.cpp8627146016#1926"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../tinyxml/tinyxml.cpp" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/tinyxml.o"0#
 
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/tinyxml.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../tinyxml/tinyxml.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/tinyxmlerror.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../tinyxml/tinyxmlerror.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 s310500924.771721
 e310500925.177243
@@ -20769,6 +21445,9 @@ xx86_64
 xc++
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@109"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../tinyxml/tinyxmlerror.cpp310500924#310500925#0(0"0(0#0#101"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../tinyxml/tinyxmlerror.cpp8616397568#1936"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../tinyxml/tinyxmlerror.cpp" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/tinyxmlerror.o"0#
+
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/tinyxmlerror.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../tinyxml/tinyxmlerror.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/tinyxmlparser.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../tinyxml/tinyxmlparser.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 s310500925.177339
@@ -20783,6 +21462,9 @@ xc++
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@110"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../tinyxml/tinyxmlparser.cpp310500925#310500925#0(0"0(0#0#102"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../tinyxml/tinyxmlparser.cpp8630674048#1938"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../tinyxml/tinyxmlparser.cpp" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/tinyxmlparser.o"0#
 
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/tinyxmlparser.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../tinyxml/tinyxmlparser.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/trees.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/trees.c" normal x86_64 c com.apple.compilers.gcc.4_2
 s310500924.603522
 e310500924.746208
@@ -20796,6 +21478,9 @@ xc
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@100"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/trees.c310500924#310500924#0(0"0(0#0#92"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/trees.c8626919008#1901"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/trees.c" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/trees.o"0#
 
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/trees.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../zlib123/trees.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/uncompr.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/uncompr.c" normal x86_64 c com.apple.compilers.gcc.4_2
 s310500924.702328
 e310500924.730581
@@ -20808,6 +21493,9 @@ xx86_64
 xc
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@102"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/uncompr.c310500924#310500924#0(0"0(0#0#94"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/uncompr.c8633566752#1905"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/uncompr.c" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/uncompr.o"0#
+
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/uncompr.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../zlib123/uncompr.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
 
 CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/validation.o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../../../../Desktop/RopeBurn/Utilities/boost/test/utils/runtime/cla/validation.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
 s309987942.489593
@@ -20859,6 +21547,9 @@ xc
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@100"Compile /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/zutil.c310500924#310500924#0(0"0(0#0#92"/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/zutil.c8632592704#1901"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -DBOOST_ASIO_SEPARATE_COMPILATION -DTIXML_USE_STL -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-generated-files.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-own-target-headers.hmap" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-all-target-headers.hmap" -iquote "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/OptimizeTilemap-project-headers.hmap" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/include" -I.. -I../libpng "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources/x86_64" "-I/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/DerivedSources" -c "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/../zlib123/zutil.c" -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/zutil.o"0#
 
+CCompileC build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/zutil.o "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/../zlib123/zutil.c" normal x86_64 c com.apple.compilers.gcc.4_2
+r0
+
 CLd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/OptimizeTilemap" normal x86_64
 s310516283.759409
 e310516283.833449
@@ -20868,4 +21559,7 @@ x/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build
 xnormal
 xx86_64
 lSLF07#2@106"Link /Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/OptimizeTilemap310516283#310516283#0(0"0(0#0#0"8633558304#715"    cd "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" "-F/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug" -filelist "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/OptimizeTilemap.build/Debug/OptimizeTilemap.build/Objects-normal/x86_64/OptimizeTilemap.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/pTymN/The Night School/AS3-Tile-Ripper-Utility/src/OptimizeTilemap/build/Debug/OptimizeTilemap"0#
+
+CLd "/Users/pTymN/The Night School/TrippySoftLib/src/OptimizeTilemap/build/Debug/OptimizeTilemap" normal x86_64
+r0
 

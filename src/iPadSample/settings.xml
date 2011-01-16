@@ -1,0 +1,8 @@
+<frame>
+	<scale>30</scale>
+	<world gravity="0 38" />
+	
+	<defaultShapes>
+		<coin><circle radius="0.6" /></coin>
+	</defaultShapes>
+</frame>

@@ -1,6 +1,6 @@
 /*
  *  stdaddtions.h
- *  iPadSample
+ *  RopeBurnXCode
  *
  *  Created by Timothy Kerchmar on 1/5/11.
  *  Copyright 2011 The Night School, LLC. All rights reserved.
@@ -15,13 +15,16 @@
 #include <tr1/unordered_map>
 #include <math.h>
 #include <limits>
+#include <Box2D/Box2D.h>
 
 static const float FloatNAN = std::numeric_limits<float>::quiet_NaN();
 
 std::vector<std::string> split(std::string input, std::string splitOn);
 std::string::size_type replace(std::string& s, const std::string& from, const std::string& to);
 std::string toString(double val);
-float stringToFloat(std::string &str);
+float stringToFloat(std::string str);
+int stringToInt(std::string str);
+bool isValid(b2Vec2 vec);
 
 //namespace __gnu_cxx
 //{
