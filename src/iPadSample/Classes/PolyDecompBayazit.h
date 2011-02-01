@@ -1,6 +1,6 @@
 /*
  *  PolyDecompBayazit.h
- *  iPadSample
+ *  RopeBurnXCode
  *
  *  Created by Timothy Kerchmar on 1/8/11.
  *  Copyright 2011 The Night School, LLC. All rights reserved.
@@ -13,18 +13,20 @@
 #include <Box2D/Box2D.h>
 #include <vector>
 
+typedef float TSFloat;
+
 class PolyDecompBayazit;
 typedef void(*FoundPolygon)(PolyDecompBayazit*);
 
 class PolyDecompBayazit {
 public:
-	PolyDecompBayazit(std::vector<b2Vec2> points);
-	float area(b2Vec2 &a, b2Vec2 &b, b2Vec2 &c);
+	PolyDecompBayazit(std::vector<b2Vec2> points, bool repairPoints = true);
+	TSFloat area(b2Vec2 &a, b2Vec2 &b, b2Vec2 &c);
 	bool right(b2Vec2 &a, b2Vec2 &b, b2Vec2 &c);
 	bool rightOn(b2Vec2 &a, b2Vec2 &b, b2Vec2 &c);
 	bool left(b2Vec2 &a, b2Vec2 &b, b2Vec2 &c);
 	bool leftOn(b2Vec2 &a, b2Vec2 &b, b2Vec2 &c);
-	float sqdist(b2Vec2 &a, b2Vec2 &b);
+	TSFloat sqdist(b2Vec2 &a, b2Vec2 &b);
 	b2Vec2* getIntersection(b2Vec2 start1, b2Vec2 end1, b2Vec2 start2, b2Vec2 end2);
 	b2Vec2 lastIntersection;
 	std::vector<b2Vec2> points;

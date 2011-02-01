@@ -1,6 +1,6 @@
 /*
  *  PolyDecompBayazit
- *  iPadSample
+ *  RopeBurnXCode
  *
  *  Created by Timothy Kerchmar on 1/8/11.
  *  Copyright 2011 The Night School, LLC. All rights reserved.
@@ -9,12 +9,15 @@
 
 #include <algorithm>
 #include "PolyDecompBayazit.h"
+#include "TSRenderer.h"
 
 using namespace std;
 
+void drawText(NSString* theString, TSFloat X, TSFloat Y);
+
 int PolyDecompBayazit::polyID = 0;
 
-float PolyDecompBayazit::area(b2Vec2 &a, b2Vec2 &b, b2Vec2 &c) {
+TSFloat PolyDecompBayazit::area(b2Vec2 &a, b2Vec2 &b, b2Vec2 &c) {
 	return (((b.x - a.x)*(c.y - a.y))-((c.x - a.x)*(b.y - a.y)));
 }
 		
@@ -34,20 +37,20 @@ bool PolyDecompBayazit::leftOn(b2Vec2 &a, b2Vec2 &b, b2Vec2 &c) {
 	return area(a, b, c) >= 0;
 }
 
-float PolyDecompBayazit::sqdist(b2Vec2 &a, b2Vec2 &b) {
-	float dx = b.x - a.x;
-	float dy = b.y - a.y;
+TSFloat PolyDecompBayazit::sqdist(b2Vec2 &a, b2Vec2 &b) {
+	TSFloat dx = b.x - a.x;
+	TSFloat dy = b.y - a.y;
 	return dx * dx + dy * dy;
 }
 		
 b2Vec2* PolyDecompBayazit::getIntersection(b2Vec2 start1, b2Vec2 end1, b2Vec2 start2, b2Vec2 end2) {
-	float a1 = end1.y - start1.y;
-	float b1 = start1.x - end1.x;
-	float c1 = a1 * start1.x + b1 * start1.y;
-	float a2 = end2.y - start2.y;
-	float b2 = start2.x - end2.x;
-	float c2 = a2 * start2.x + b2 * start2.y;
-	float det = a1 * b2 - a2*b1;
+	TSFloat a1 = end1.y - start1.y;
+	TSFloat b1 = start1.x - end1.x;
+	TSFloat c1 = a1 * start1.x + b1 * start1.y;
+	TSFloat a2 = end2.y - start2.y;
+	TSFloat b2 = start2.x - end2.x;
+	TSFloat c2 = a2 * start2.x + b2 * start2.y;
+	TSFloat det = a1 * b2 - a2*b1;
 	
 	if (fabs(det) > b2_epsilon) { // lines are not parallel
 		lastIntersection = b2Vec2((b2 * c1 - b1 * c2) / det,  (a1 * c2 - a2 * c1) / det);
@@ -72,8 +75,10 @@ void PolyDecompBayazit::combineColinearPoints() {
 	points = combinedPoints;
 }
 
-PolyDecompBayazit::PolyDecompBayazit(std::vector<b2Vec2> points) {
+PolyDecompBayazit::PolyDecompBayazit(std::vector<b2Vec2> points, bool repairPoints) {
 	this->points = points;
+	
+	if(!repairPoints) return;
 	
 	combineClosePoints();
 	combineColinearPoints();
@@ -90,7 +95,7 @@ void PolyDecompBayazit::combineClosePoints() {
 		b2Vec2 a = at(i);
 		b2Vec2 b = at(i + 1);
 		
-		if(sqdist(a, b) > 0.035f) {
+		if(sqdist(a, b) > 0.035) {
 			combinedPoints.push_back(a);
 		}
 	}
@@ -109,10 +114,10 @@ bool PolyDecompBayazit::isReflex(int i) {
 
 PolyDecompBayazit* PolyDecompBayazit::polyFromRange(int lower, int upper) {
 	if(lower < upper)
-		return new PolyDecompBayazit(vector<b2Vec2>(points.begin() + lower, points.begin() + upper)); // $$$ off by 1 error for upper?
+		return new PolyDecompBayazit(vector<b2Vec2>(points.begin() + lower, points.begin() + upper + 1)); // $$$ off by 1 error for upper?
 	else {
 		vector<b2Vec2> slice(points.begin() + lower, points.end());
-		slice.insert(slice.end(), points.begin(), points.begin() + upper);
+		slice.insert(slice.end(), points.begin(), points.begin() + upper + 1);
 		return new PolyDecompBayazit(slice);
 	}
 }
@@ -128,7 +133,7 @@ void PolyDecompBayazit::decompose(FoundPolygon callback, int recurseLevel) {
 		if (isReflex(i)) {
 			// Find closest two vertices in range from a reflex point (two the vertices are by going CW and CCW around polygon)
 			// See first diagram on this page: http://mnbayazit.com/406/bayazit
-			float upperDist = b2_maxFloat, lowerDist = b2_maxFloat;
+			TSFloat upperDist = b2_maxFloat, lowerDist = b2_maxFloat;
 			b2Vec2 upperIntersection, lowerIntersection;
 			int upperIndex = 0, lowerIndex = 0;;
 			
@@ -136,7 +141,7 @@ void PolyDecompBayazit::decompose(FoundPolygon callback, int recurseLevel) {
 				if (left(at(i - 1), at(i), at(j)) && rightOn(at(i - 1), at(i), at(j - 1))) { // if line intersects with an edge
 					b2Vec2* intersectionPoint = getIntersection(at(i - 1), at(i), at(j), at(j - 1)); // find the point of intersection
 					if (right(at(i + 1), at(i), *intersectionPoint)) { // make sure it's inside the poly
-						float distance = sqdist(at(i), *intersectionPoint);
+						TSFloat distance = sqdist(at(i), *intersectionPoint);
 						if (distance < lowerDist) { // keep only the closest intersection
 							lowerDist = distance;
 							lowerIntersection = *intersectionPoint;
@@ -147,7 +152,7 @@ void PolyDecompBayazit::decompose(FoundPolygon callback, int recurseLevel) {
 				if (left(at(i + 1), at(i), at(j + 1)) && rightOn(at(i + 1), at(i), at(j))) {
 					b2Vec2* intersectionPoint = getIntersection(at(i + 1), at(i), at(j), at(j + 1));
 					if (left(at(i - 1), at(i), *intersectionPoint)) {
-						float distance = sqdist(at(i), *intersectionPoint);
+						TSFloat distance = sqdist(at(i), *intersectionPoint);
 						if (distance < upperDist) {
 							upperDist = distance;
 							upperIntersection = *intersectionPoint;
@@ -181,12 +186,12 @@ void PolyDecompBayazit::decompose(FoundPolygon callback, int recurseLevel) {
 				
 				// Find closest point in range
 				int closestIndex = 0;
-				float closestDist = b2_maxFloat;
+				TSFloat closestDist = b2_maxFloat;
 				b2Vec2 closestVert;
 				for (int j = lowerIndex; j <= upperIndex; ++j) {
 					if (leftOn(at(i - 1), at(i), at(j)) && rightOn(at(i + 1), at(i), at(j))) {
-						float distance = sqdist(at(i), at(j));
-						if (distance < closestDist) {
+						TSFloat distance = sqdist(at(i), at(j));
+						if (0.0 < distance && distance < closestDist) {
 							closestDist = distance;
 							closestVert = at(j);
 							closestIndex = j % points.size();
@@ -200,6 +205,12 @@ void PolyDecompBayazit::decompose(FoundPolygon callback, int recurseLevel) {
 			
 			if(lowerPoly->points.size() == this->points.size() || upperPoly->points.size() == this->points.size()) {
 				polyID++;
+				
+				for(int j = 0; j < points.size(); j++) {
+					NSLog(@"could not decompose %@", [NSString stringWithFormat:@"%i-%i: %g, %g", polyID, j, points[j].x, points[j].y]);
+					drawText([NSString stringWithFormat:@"%i-%i: %.2f, %.2f", polyID, j, points[j].x, points[j].y], points[j].x * 2.0 / 1024.0, points[j].y * 2.0 / 768.0);
+				}
+				
 				/*for(j = 0; j < points.length; j++) {
 				 Main.debugger.drawText("" + polyID + "-" + j + ": " + (at(j).x * 30).toPrecision(4) + ", " + (at(j).y * 30).toPrecision(4), new b2Vec2(at(j).x, at(j).y), 0xFFFFFF, true);
 				 }*/
