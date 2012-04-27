@@ -89,7 +89,9 @@ TileMap tilemapFromXML(TiXmlDocument* doc) {
 			assert(TIXML_SUCCESS == element->QueryIntAttribute("width", &atlasWidth));
 			assert(TIXML_SUCCESS == element->QueryIntAttribute("height", &atlasHeight));
 			
-			tilemap.highestIndex += (atlasWidth / tilemap.tileWidth) * (atlasHeight / tilemap.tileHeight);
+            // integer math always rounds down. we want to always round up instead.
+			tilemap.highestIndex += ((atlasWidth  + tilemap.tileWidth  - 1) / tilemap.tileWidth)
+                                  * ((atlasHeight + tilemap.tileHeight - 1) / tilemap.tileHeight);
 		}
 	}
 	

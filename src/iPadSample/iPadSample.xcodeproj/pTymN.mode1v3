@@ -216,7 +216,7 @@
 						<key>_historyCapacity</key>
 						<integer>0</integer>
 						<key>bookmark</key>
-						<string>DB50FB0F12F7C255008BB5A5</string>
+						<string>DB50FB2112F7C34A008BB5A5</string>
 						<key>history</key>
 						<array>
 							<string>DB3C04C412E91EB80005D5F6</string>
@@ -270,6 +270,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -305,6 +307,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateExpansionKey</key>
 							<array>
 								<string>29B97314FDCFA39411CA2CEA</string>
+								<string>DB3E24D512DD2C7700D15D82</string>
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>2514C27610084DB600A42282</string>
 								<string>29B97317FDCFA39411CA2CEA</string>
@@ -315,13 +318,13 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>55</integer>
-									<integer>2</integer>
+									<integer>14</integer>
+									<integer>8</integer>
 									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 95}, {328, 958}}</string>
+							<string>{{0, 0}, {328, 958}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -351,14 +354,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>MiniSVGWeb.mm</string>
+								<string>PolyDecompBayazit.mm</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -366,11 +367,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>MiniSVGWeb.mm</string>
+										<string>PolyDecompBayazit.mm</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DB50FB0C12F7C255008BB5A5</string>
+										<string>DB50FB2012F7C34A008BB5A5</string>
 										<key>history</key>
 										<array>
 											<string>DBEFB0FE12A55947004E3E6E</string>
@@ -414,7 +415,6 @@
 											<string>DBC9CA7112DD01D20041BE65</string>
 											<string>DBC9CA8B12DD02970041BE65</string>
 											<string>DBA04FA812DD30B9003F4944</string>
-											<string>DBA04FAB12DD30B9003F4944</string>
 											<string>DBA04FAC12DD30B9003F4944</string>
 											<string>DBA04FAD12DD30B9003F4944</string>
 											<string>DBA04FAE12DD30B9003F4944</string>
@@ -441,7 +441,6 @@
 											<string>DBA04FC812DD30B9003F4944</string>
 											<string>DBA04FC912DD30B9003F4944</string>
 											<string>DB56947212DD442C00E8D630</string>
-											<string>DB56947312DD442C00E8D630</string>
 											<string>DB56947412DD442C00E8D630</string>
 											<string>DB56947512DD442C00E8D630</string>
 											<string>DB56947612DD442C00E8D630</string>
@@ -470,7 +469,9 @@
 											<string>DB569AB312E2CC1900E8D630</string>
 											<string>DB569ADF12E2CDFB00E8D630</string>
 											<string>DB569CB112E368B500E8D630</string>
-											<string>DB3C04C312E91EB80005D5F6</string>
+											<string>DB50FB1D12F7C34A008BB5A5</string>
+											<string>DB50FB1E12F7C34A008BB5A5</string>
+											<string>DB50FB1F12F7C34A008BB5A5</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -789,9 +790,12 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>DBEFAFCF12A550FB004E3E6E</string>
+		<string>DB50FB2312F7C34A008BB5A5</string>
+		<string>DB50FB2412F7C34A008BB5A5</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>DB56947C12DD442C00E8D630</string>
 		<string>1CD10A99069EF8BA00B06720</string>
+		<string>DBEFAFCF12A550FB004E3E6E</string>
 		<string>/Users/pTymN/The Night School/TrippySoftLib/src/iPadSample/iPadSample.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -816,7 +820,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string></string>
+								<string>PolyDecompBayazit.h</string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -833,6 +837,8 @@
 							<string>647pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -885,7 +891,7 @@
 			<key>WindowToolGUID</key>
 			<string>DBEFAFCF12A550FB004E3E6E</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -1154,7 +1160,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>DB3C04BD12E80B7F0005D5F6</string>
+				<string>DB50FB2212F7C34A008BB5A5</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>

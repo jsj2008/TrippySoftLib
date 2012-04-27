@@ -6,8 +6,6 @@
  *
  */
 
-using namespace std;
-
 #include <unistd.h>
 #include <stdlib.h>
 #include <stdio.h>
@@ -21,6 +19,8 @@ using namespace std;
 #include "image.h"
 #include "selection.h"
 #include "tilemap.h"
+
+using namespace std;
 
 void abort_(const char * s, ...)
 {
@@ -58,8 +58,9 @@ void moveSelectionToOutputAtlases(Selection* selection, int atlasWidth, int atla
 		currentAtlas = createImage(atlasWidth, atlasHeight);
 		currentAtlasX = 0;
 		currentAtlasY = 0;
-		
+        
 		outputAtlases.push_back(currentAtlas);
+        printf("Created new output atlas image (%i, %i)\n", atlasWidth, atlasHeight);
 	}
 	
 	for(int y = 0; y < selection->height; y++) {
@@ -85,7 +86,7 @@ void moveSelectionToOutputAtlases(Selection* selection, int atlasWidth, int atla
 		currentAtlasY += selection->height;
 	}
 	
-	if(currentAtlasY >= atlasHeight) currentAtlas = NULL;
+	if(currentAtlasY + selection->height > atlasHeight) currentAtlas = NULL;
 }
 
 vector<Selection> outputTiles;
@@ -147,7 +148,8 @@ TileMap tilemapFromAtlas(Image* image, int tileWidth, int tileHeight, int atlasW
 int main(int argc, char **argv) {
 	// PROCESS COMMAND LINE ARGUMENTS
 	if (argc != 7)
-		abort_("Usage: program_name <file_in> <tile_width> <tile_height> <max_atlas_width> <max_atlas_height> <output_prefix>");
+		abort_("Usage: program_name <file_in> <tile_width> <tile_height> <max_atlas_width> <max_atlas_height> <output_prefix>\n"
+               "file_in can be a tilemap or png");
 	
 	string inputTilemapPath = argv[1];
 	int outputTileWidth = atoi(argv[2]);
@@ -170,16 +172,34 @@ int main(int argc, char **argv) {
 	}
 	
 	printf("path is %s\n", path.c_str());
+    
+//    string filename = pathParts[pathParts.size() - 1];
+//    bool isPng = filename.find(".png") != string::npos;
 	
 	// PROCESS SOURCE TILEMAP
 	TiXmlDocument sourceXML(inputTilemapPath.c_str());
 	bool xmlLoaded = sourceXML.LoadFile();
 	
 	if(!xmlLoaded) {
-		abort_("couldn't load or parse tilemap");
+		abort_("couldn't load or parse tilemap xml");
 	}
+    else {
+        printf("Successfully loaded and parsed tilemap xml\n");
+    }
 	
 	TileMap inputTilemap = tilemapFromXML(&sourceXML);
+    int tilesDown = inputTilemap.tilemap.size();
+    int tilesAcross = inputTilemap.tilemap[0].size();
+    
+    printf("Input tilemap array is (%i, %i), tiles are (%i, %i), original large image was (%i, %i).\n",
+           tilesAcross,
+           tilesDown,
+           inputTilemap.tileWidth,
+           inputTilemap.tileHeight,
+           inputTilemap.totalWidth,
+           inputTilemap.totalHeight);
+    
+    printf("Input tilemap is %i%% optimized\n", 100 - 100 * inputTilemap.highestIndex / (tilesAcross * tilesDown));
 	
 	// FIND UNIQUE TILES IN EACH INPUT ATLAS
 	for (TiXmlNode* child = sourceXML.FirstChild()->FirstChild(); child != 0; child = child->NextSibling()) {
@@ -190,13 +210,13 @@ int main(int argc, char **argv) {
 			string atlasFilename = path + element->GetText();
 			
 			Image* image = read_png_file(atlasFilename.c_str());
-			printf("Processing atlas %s (%d, %d) ", atlasFilename.c_str(), image->width, image->height);
+			printf("Processing atlas %s (%d, %d)\n", atlasFilename.c_str(), image->width, image->height);
 			
-			size_t numberOfUniqeTiles = outputTiles.size();
+			size_t numberOfUniqueTiles = outputTiles.size();
 			
 			TileMap atlasTilemap = tilemapFromAtlas(image, outputTileWidth, outputTileHeight, maxAtlasWidth, maxAtlasHeight);
 			
-			printf("found %i unique tiles\n", outputTiles.size() - numberOfUniqeTiles);
+			printf("found %lu unique tiles\n", outputTiles.size() - numberOfUniqueTiles);
 			
 			outputTilemaps.push_back(atlasTilemap);
 			
@@ -206,7 +226,7 @@ int main(int argc, char **argv) {
 	
 	// write xml output
 	char outputXmlName[256];
-	sprintf(outputXmlName, "%s%s-tilemap.xml", path.c_str(), outputPrefix.c_str());
+	sprintf(outputXmlName, "%s-tilemap.xml", outputPrefix.c_str());
 
 	ofstream xml;
 	xml.open(outputXmlName);
@@ -220,7 +240,15 @@ int main(int argc, char **argv) {
 	if(inputTilemap.totalWidth % outputTileWidth != 0) outputTilesAcross++;
 	
 	int outputTilesDown = inputTilemap.totalHeight / outputTileHeight;
-	if(inputTilemap.totalWidth % outputTileHeight != 0) outputTilesDown++;
+	if(inputTilemap.totalHeight % outputTileHeight != 0) outputTilesDown++;
+    
+    printf("Output tilemap array is (%i, %i), tiles are (%i, %i)\n",
+           outputTilesAcross,
+           outputTilesDown,
+           outputTileWidth,
+           outputTileHeight);
+    
+    printf("Output tilemap is %lu%% optimized\n", 100 - 100 * outputTiles.size() / (outputTilesAcross * outputTilesDown));
 	
 	TileMap finalOutput;
 	for(int y = 0; y < outputTilesDown; y++) {
@@ -261,9 +289,9 @@ int main(int argc, char **argv) {
 		
 		sprintf(atlasFilename, "%s-%d.png", outputPrefix.c_str(), z);
 		
-		printf("writing %s\n", (path + atlasFilename).c_str());
+		printf("writing %s\n", atlasFilename);
 		
-		write_png_file((path + atlasFilename).c_str(), outputAtlas);
+		write_png_file(atlasFilename, outputAtlas);
 		
 		xml << "    <atlas width=\"" << outputAtlas->width << "\" height=\"" << outputAtlas->height << "\">" << atlasFilename << "</atlas>\n";
 	}

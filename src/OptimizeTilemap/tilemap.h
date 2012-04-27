@@ -16,5 +16,5 @@ struct TileMap {
 };
 
 TileMap tilemapFromXML(TiXmlDocument* doc);
-vector<string> split(string input, string splitOn);
-void write_xml_row(ofstream &xml, vector<int> indices);
+std::vector<std::string> split(std::string input, std::string splitOn);
+void write_xml_row(std::ofstream &xml, std::vector<int> indices);

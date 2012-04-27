@@ -1,4 +1,16 @@
 .DS_Store
-.o
+*.o
+*.ilk
+*.pdb
+*.mode1v3
+*.pbxuser
+*.xcodeproj
+*.suo
+*.user
+*.db
+*.sdf
 build/
+ipch/
 .svn/
+Debug/
+Release/
